@@ -1,0 +1,26 @@
+Compute losses graphs and compare them
+with yours from Keras
+
+
+Compute accuracy graphs and compare them
+with yours from Keras
+
+
+Results and graphics
+• When we ask for the accuracy results and graphics, we expect
+analysis.
+• Do both training and validation loss have the same behavior?
+• If you achieve better results with one framework or the other, are the
+loss functions coherent with this?
+• Seems to be overfitting?
+• Is the accuracy the same for all the classes in the dataset?
+• Graphics are tools that helps to understand what is happening in your
+network / training experiment.
+
+
+Project presentation
+• We won’t consider any experiment you have done and is not
+included into the presentation.
+• Differently of common presentations, we will check this one
+offline, so a little bit of text describing diagrams, plots, figures,
+tables and results is expected.

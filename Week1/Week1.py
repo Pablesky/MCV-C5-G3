@@ -4,6 +4,8 @@ from torchvision.transforms import v2
 from torch.utils.data import DataLoader
 from torch import nn
 from torchinfo import summary
+import math
+from pytorchExternal import *
 
 
 
@@ -11,6 +13,7 @@ def load_data(train_dir, test_dir, batch_size=8):
     transformTrain = v2.Compose([
         v2.ToImage(),
         v2.ToDtype(torch.uint8, scale=True),
+        v2.Resize((360, 360)),
         v2.RandomAffine(
             degrees=0,
             translate=(0.2, 0.0),
@@ -22,7 +25,11 @@ def load_data(train_dir, test_dir, batch_size=8):
         v2.ToDtype(torch.float32, scale=True)
     ])
 
-    transformTest = v2.Compose([v2.ToImage(), v2.ToDtype(torch.float32, scale=True)])
+    transformTest = v2.Compose([
+        v2.ToImage(), 
+        v2.ToDtype(torch.float32, scale=True), 
+        v2.Resize((360, 360))
+    ])
     
     train_data = datasets.ImageFolder(root=train_dir, # target folder of images
                                   transform=transformTrain, # transforms to perform on data (images)
@@ -43,10 +50,19 @@ def load_data(train_dir, test_dir, batch_size=8):
 
     return train_dataloader, test_dataloader
 
+def compute_padding(input_size, output_size, kernel_size, stride):
+    return math.ceil(((output_size - 1) * stride - input_size + kernel_size))
+
 class start(nn.Module):
     def __init__(self):
         super(start, self).__init__()
-        self.conv1 = nn.Conv2d(3, 16, kernel_size=(3, 3), padding='same')
+        self.conv1 = nn.Conv2d(3, 16, kernel_size=(3, 3), stride=(2, 2), 
+                               padding= compute_padding(input_size=360, output_size=180, kernel_size=3, stride=2)) 
+        
+        # Este padding a 1 es porque si no sale la imagen de 179
+        # P = ((180 - 1)*2 - 360 + 3) / 2 = 0.5 -> P = 1
+        # Código en la funcion de compute_padding
+
         self.batchNorm1 = nn.BatchNorm2d(self.conv1.out_channels)
         self.activate_layer = nn.LeakyReLU()
 
@@ -58,14 +74,15 @@ class start(nn.Module):
         return x
 
 class separable_block(nn.Module):
-    def __init__(self, input_channels, output_channels, padding):
+    def __init__(self, input_channels, output_channels, stride):
         super(separable_block, self).__init__()
 
-        self.conv1 = nn.Conv2d(input_channels, input_channels, kernel_size=(3, 3), padding=padding)
+        self.conv1 = nn.Conv2d(input_channels, input_channels, kernel_size=(3, 3), stride=stride, groups=input_channels, padding=1)
+        # self.conv1 = DepthwiseConv2d(input_channels, stride=stride, kernel_size=3, depth_multiplier=1)
         self.batchNorm1 = nn.BatchNorm2d(self.conv1.out_channels)
         self.activate_layer1 = nn.LeakyReLU()
 
-        self.conv2 = nn.Conv2d(input_channels, output_channels, kernel_size=(1, 1), padding=padding)
+        self.conv2 = nn.Conv2d(input_channels, output_channels, kernel_size=(1, 1), stride=(1, 1), padding='same')
         self.batchNorm2 = nn.BatchNorm2d(self.conv2.out_channels)
         self.activate_layer2 = nn.LeakyReLU()
 
@@ -85,14 +102,13 @@ class best_model(nn.Module):
         super(best_model, self).__init__()
 
         self.start1 = start()
-        self.separable_block1 = separable_block(16, 32, 'same')
-        self.separable_block2 = separable_block(32, 64, 'same')
-        self.separable_block3 = separable_block(64, 32, 'same')
-        self.separable_block4 = separable_block(32, 64, 'same')
-        self.separable_block5 = separable_block(64, 128, 'same')
-        self.separable_block6 = separable_block(128, 32, 'same')
-        self.separable_block7 = separable_block(32, 128, 'same')
-
+        self.separable_block1 = separable_block(16, 32, 1)
+        self.separable_block2 = separable_block(32, 64, 2)
+        self.separable_block3 = separable_block(64, 32, 1)
+        self.separable_block4 = separable_block(32, 64, 2)
+        self.separable_block5 = separable_block(64, 128, 1)
+        self.separable_block6 = separable_block(128, 32, 2)
+        self.separable_block7 = separable_block(32, 128, 1)
         self.fc = nn.Linear(128, 8)
 
         self.softmax_layer = nn.Softmax(dim=1)
@@ -122,8 +138,8 @@ def accuracy_fn(y_true, y_pred):
     return correct
 
 def accuracy_fn_tensors(y_true, y_pred):
-    correct = torch.eq(y_true, y_pred).sum().item() # torch.eq() calculates where two tensors are equal
-    acc = (correct / len(y_pred)) * 100 
+    correct = torch.eq(y_true, y_pred).sum().item()
+    acc = (correct / len(y_pred))
     return acc
 
 if __name__ == '__main__':
@@ -138,16 +154,24 @@ if __name__ == '__main__':
 
     model = model.to(device)
 
-    optimizer = torch.optim.NAdam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.NAdam(model.parameters(), lr=0.001, weight_decay=0.01)
     loss_fn = torch.nn.CrossEntropyLoss()
 
     epochs = 200
 
-    loss_train = 0
+    print(summary(model, input_size=(8, 3, 360, 360)))
+
     for epoch in range(epochs):
         model.train()
 
+        loss_train = 0
+        acc = 0
+
+        counter = 0
+
         for i, data in enumerate(train_dataloader):
+            counter += 1
+
             inputs, labels = data
 
             inputs = inputs.to(device)
@@ -159,7 +183,7 @@ if __name__ == '__main__':
 
             preds = outputs.argmax(dim=1)
 
-            acc = accuracy_fn_tensors(labels, preds)
+            acc += accuracy_fn_tensors(labels, preds)
 
             loss = loss_fn(outputs, labels)
             loss_train += loss
@@ -195,7 +219,6 @@ if __name__ == '__main__':
             # Print out what's happening
         if epoch % 10 == 0:
             print(f"Epoch: {epoch} | Loss: {loss_train_1:.5f}, Train Accuracy: {acc_1:.5f}, Test Loss: {test_loss_1:.5f}, Test Accuracy: {accuracy_test_1:.5f}")
-
     
 
 
