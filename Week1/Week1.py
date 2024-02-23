@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from torch import nn
 from torchinfo import summary
 import math
-from pytorchExternal import *
+import wandb
 
 
 
@@ -53,11 +53,19 @@ def load_data(train_dir, test_dir, batch_size=8):
 def compute_padding(input_size, output_size, kernel_size, stride):
     return math.ceil(((output_size - 1) * stride - input_size + kernel_size))
 
+def he_initialization(layer):
+    HE_INITIALIZER = False
+    if HE_INITIALIZER:
+        nn.init.kaiming_normal_(layer.weight, mode='fan_in')
+        nn.init.zeros_(layer.bias)
+
 class start(nn.Module):
     def __init__(self):
         super(start, self).__init__()
         self.conv1 = nn.Conv2d(3, 16, kernel_size=(3, 3), stride=(2, 2), 
-                               padding= compute_padding(input_size=360, output_size=180, kernel_size=3, stride=2)) 
+                               padding= compute_padding(input_size=360, output_size=180, kernel_size=3, stride=2))
+        
+        he_initialization(self.conv1)
         
         # Este padding a 1 es porque si no sale la imagen de 179
         # P = ((180 - 1)*2 - 360 + 3) / 2 = 0.5 -> P = 1
@@ -78,11 +86,15 @@ class separable_block(nn.Module):
         super(separable_block, self).__init__()
 
         self.conv1 = nn.Conv2d(input_channels, input_channels, kernel_size=(3, 3), stride=stride, groups=input_channels, padding=1)
+        he_initialization(self.conv1)
+
         # self.conv1 = DepthwiseConv2d(input_channels, stride=stride, kernel_size=3, depth_multiplier=1)
         self.batchNorm1 = nn.BatchNorm2d(self.conv1.out_channels)
         self.activate_layer1 = nn.LeakyReLU()
 
         self.conv2 = nn.Conv2d(input_channels, output_channels, kernel_size=(1, 1), stride=(1, 1), padding='same')
+        he_initialization(self.conv2)
+
         self.batchNorm2 = nn.BatchNorm2d(self.conv2.out_channels)
         self.activate_layer2 = nn.LeakyReLU()
 
@@ -143,6 +155,20 @@ def accuracy_fn_tensors(y_true, y_pred):
     return acc
 
 if __name__ == '__main__':
+
+    regularizer = 5e-3
+
+    wandb.init(
+        # set the wandb project where this run will be logged
+        project="MCV-C5-G3",
+        
+        # track hyperparameters and run metadata
+        config={
+        'Weights Initialization': 'None',
+        'Regularization': str(regularizer),
+        }
+    )
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
     root_dir = '../MIT_small_train_1/'
     train_dir = root_dir + 'train'
@@ -154,7 +180,7 @@ if __name__ == '__main__':
 
     model = model.to(device)
 
-    optimizer = torch.optim.NAdam(model.parameters(), lr=0.001, weight_decay=0.01)
+    optimizer = torch.optim.NAdam(model.parameters(), lr=0.001, weight_decay=regularizer)
     loss_fn = torch.nn.CrossEntropyLoss()
 
     epochs = 200
@@ -215,6 +241,8 @@ if __name__ == '__main__':
 
         test_loss_1 = test_loss / len(test_dataloader)
         accuracy_test_1 = accuracy_test / len(test_dataloader)
+
+        wandb.log({"train acc": acc_1, "train loss": loss_train_1, 'test_loss': test_loss_1, 'test_acc': accuracy_test_1})
 
             # Print out what's happening
         if epoch % 10 == 0:
