@@ -138,16 +138,12 @@ Forward/backward pass size (MB): 560.80
 Params size (MB): 0.12
 Estimated Total Size (MB): 573.37
 ==========================================================================================
-Epoch: 0 | Loss: 2.06745, Train Accuracy: 0.17000, Test Loss: 2.10327, Test Accuracy: 0.09178
-Epoch: 10 | Loss: 1.78180, Train Accuracy: 0.53500, Test Loss: 1.77808, Test Accuracy: 0.52185
-Epoch: 20 | Loss: 1.72978, Train Accuracy: 0.60750, Test Loss: 1.70344, Test Accuracy: 0.64991
-Epoch: 30 | Loss: 1.65087, Train Accuracy: 0.71500, Test Loss: 1.60428, Test Accuracy: 0.73033
-Epoch: 40 | Loss: 1.56240, Train Accuracy: 0.80250, Test Loss: 1.54833, Test Accuracy: 0.78059
-Epoch: 50 | Loss: 1.56463, Train Accuracy: 0.80500, Test Loss: 1.54312, Test Accuracy: 0.78846
-Epoch: 60 | Loss: 1.51528, Train Accuracy: 0.85500, Test Loss: 1.57785, Test Accuracy: 0.74432
-Epoch: 70 | Loss: 1.52336, Train Accuracy: 0.86000, Test Loss: 1.49938, Test Accuracy: 0.82517
-Epoch: 80 | Loss: 1.51130, Train Accuracy: 0.87000, Test Loss: 1.52296, Test Accuracy: 0.79196
-Epoch: 90 | Loss: 1.49581, Train Accuracy: 0.85000, Test Loss: 1.50455, Test Accuracy: 0.82605
-Epoch: 100 | Loss: 1.48222, Train Accuracy: 0.87250, Test Loss: 1.56279, Test Accuracy: 0.75743
-Epoch: 110 | Loss: 1.48640, Train Accuracy: 0.89250, Test Loss: 1.54928, Test Accuracy: 0.77753
-Epoch: 120 | Loss: 1.49060, Train Accuracy: 0.87000, Test Loss: 1.51430, Test Accuracy: 0.80944
+Epoch: 0 | Loss: 2.07760, Train Accuracy: 0.11500, Test Loss: 2.07240, Test Accuracy: 0.22203
+Epoch: 10 | Loss: 1.88653, Train Accuracy: 0.36750, Test Loss: 1.86003, Test Accuracy: 0.44624
+Epoch: 20 | Loss: 1.84731, Train Accuracy: 0.43500, Test Loss: 1.85544, Test Accuracy: 0.46066
+Epoch: 30 | Loss: 1.80356, Train Accuracy: 0.51250, Test Loss: 1.77134, Test Accuracy: 0.55507
+Epoch: 40 | Loss: 1.71272, Train Accuracy: 0.63750, Test Loss: 1.64264, Test Accuracy: 0.68269
+Epoch: 50 | Loss: 1.66971, Train Accuracy: 0.68250, Test Loss: 1.66443, Test Accuracy: 0.64030
+Epoch: 60 | Loss: 1.62831, Train Accuracy: 0.70750, Test Loss: 1.64129, Test Accuracy: 0.65734
+Epoch: 70 | Loss: 1.63441, Train Accuracy: 0.71000, Test Loss: 1.60227, Test Accuracy: 0.71066
+Epoch: 80 | Loss: 1.62062, Train Accuracy: 0.73750, Test Loss: 1.61583, Test Accuracy: 0.67745
