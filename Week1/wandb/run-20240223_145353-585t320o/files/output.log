@@ -151,3 +151,10 @@ Epoch: 90 | Loss: 1.49581, Train Accuracy: 0.85000, Test Loss: 1.50455, Test Acc
 Epoch: 100 | Loss: 1.48222, Train Accuracy: 0.87250, Test Loss: 1.56279, Test Accuracy: 0.75743
 Epoch: 110 | Loss: 1.48640, Train Accuracy: 0.89250, Test Loss: 1.54928, Test Accuracy: 0.77753
 Epoch: 120 | Loss: 1.49060, Train Accuracy: 0.87000, Test Loss: 1.51430, Test Accuracy: 0.80944
+Epoch: 130 | Loss: 1.48362, Train Accuracy: 0.88750, Test Loss: 1.50865, Test Accuracy: 0.80988
+Epoch: 140 | Loss: 1.47069, Train Accuracy: 0.88750, Test Loss: 1.50789, Test Accuracy: 0.80769
+Epoch: 150 | Loss: 1.48091, Train Accuracy: 0.88250, Test Loss: 1.51348, Test Accuracy: 0.80988
+Epoch: 160 | Loss: 1.46547, Train Accuracy: 0.90000, Test Loss: 1.51397, Test Accuracy: 0.79983
+Epoch: 170 | Loss: 1.45490, Train Accuracy: 0.90500, Test Loss: 1.49056, Test Accuracy: 0.84091
+Epoch: 180 | Loss: 1.47281, Train Accuracy: 0.88500, Test Loss: 1.50084, Test Accuracy: 0.82255
+Epoch: 190 | Loss: 1.45803, Train Accuracy: 0.89000, Test Loss: 1.49925, Test Accuracy: 0.81731

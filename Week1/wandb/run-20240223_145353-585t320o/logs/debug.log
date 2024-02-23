@@ -24,3 +24,4 @@ config: {'Weights Initialization': 'None', 'Regularization': '0.005'}
 2024-02-23 14:53:54,224 INFO    MainThread:26644 [wandb_run.py:_redirect():2161] Wrapping output streams.
 2024-02-23 14:53:54,224 INFO    MainThread:26644 [wandb_run.py:_redirect():2186] Redirects installed.
 2024-02-23 14:53:54,224 INFO    MainThread:26644 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-23 16:09:16,013 WARNING MsgRouterThr:26644 [router.py:message_loop():77] message_loop has been closed

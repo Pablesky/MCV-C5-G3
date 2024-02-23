@@ -1472,3 +1472,1616 @@
 2024-02-23 15:43:44,362 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
 2024-02-23 15:43:49,420 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
 2024-02-23 15:43:54,455 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:43:58,155 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:43:58,155 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:43:58,203 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:43:59,710 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:44:02,093 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:44:02,093 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:02,093 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:44:02,093 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:44:02,667 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:44:07,160 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:12,219 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:12,596 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:44:13,164 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:44:13,165 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:44:13,212 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:44:17,393 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:22,441 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:22,828 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:44:22,829 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:44:22,829 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:44:22,829 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:44:22,887 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:44:27,881 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:28,182 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:44:28,183 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:44:28,214 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:44:33,482 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:38,531 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:42,618 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:44:43,180 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:44:43,180 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:44:43,228 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:44:44,394 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:46,136 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:44:46,136 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:44:46,136 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:44:46,137 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:44:46,147 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:44:47,158 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 15:44:50,172 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:55,192 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:44:58,204 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:44:58,204 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:44:58,236 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:45:02,082 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:07,143 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:10,037 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:45:10,048 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:45:10,048 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:45:10,049 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:45:10,337 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:45:12,612 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:45:12,612 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:13,211 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:45:13,211 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:45:13,243 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:45:18,463 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:23,513 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:28,215 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:45:28,215 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:45:28,247 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:45:29,419 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:33,474 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:45:33,475 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:45:33,475 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:45:33,476 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:45:33,562 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:45:34,488 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:39,546 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:42,613 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:45:43,228 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:45:43,228 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:45:43,260 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:45:45,455 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:50,501 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:55,524 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:45:57,386 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:45:57,387 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:45:57,387 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:45:57,387 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:45:57,778 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:45:58,246 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:45:58,246 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:45:58,262 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:46:01,459 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:06,479 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:11,516 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:12,613 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:46:13,253 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:46:13,253 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:46:13,270 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:46:17,438 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:21,106 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:46:21,107 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:46:21,107 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:46:21,107 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:46:21,986 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:46:23,115 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:28,175 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:28,254 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:46:28,254 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:46:28,271 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:46:33,562 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:38,603 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:42,618 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:46:43,252 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:46:43,252 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:46:43,284 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:46:43,850 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:46:43,850 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:46:43,850 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:46:43,850 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:43,851 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:46:44,188 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:46:48,892 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:53,926 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:46:58,248 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:46:58,248 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:46:58,296 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:46:59,510 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:04,565 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:06,843 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:47:06,843 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:47:06,844 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:47:06,844 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:47:07,431 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:47:09,871 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:12,621 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:47:13,254 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:47:13,254 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:47:13,302 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:47:15,470 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:20,516 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:25,563 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:28,254 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:47:28,255 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:47:28,317 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:47:31,499 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:31,869 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:47:31,870 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:47:31,870 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:47:31,870 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:47:32,644 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:47:36,904 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:41,923 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:42,630 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:47:43,256 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:47:43,256 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:47:43,334 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:47:47,443 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:52,469 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:54,983 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:47:54,983 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:47:54,983 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:47:54,984 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:47:55,836 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:47:58,006 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:47:58,258 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:47:58,258 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:47:58,335 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:48:03,226 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:08,254 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:12,640 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:48:13,279 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:48:13,279 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:48:13,341 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:48:13,537 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:18,577 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:18,784 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:48:18,785 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:48:18,785 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:48:18,785 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:48:19,060 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:48:23,822 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:28,285 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:48:28,285 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:48:28,347 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:48:29,443 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:34,485 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:39,519 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:41,933 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:48:41,933 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:48:41,934 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:48:41,934 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:48:42,256 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:48:42,651 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:48:43,281 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:48:43,281 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:48:43,360 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:48:44,273 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 15:48:45,480 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:50,507 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:55,539 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:48:58,291 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:48:58,291 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:48:58,370 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:49:00,554 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:05,285 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:49:05,286 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:49:05,286 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:49:05,286 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:49:05,477 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:49:06,295 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:11,324 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:12,662 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:49:13,311 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:49:13,311 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:49:13,374 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:49:16,517 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:21,557 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:26,588 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:28,314 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:49:28,314 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:49:28,376 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:49:28,677 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:49:28,678 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:49:28,678 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:49:28,678 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:49:28,703 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:49:31,699 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:36,719 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:41,757 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:42,664 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:49:43,318 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:49:43,318 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:49:43,381 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:49:47,541 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:51,809 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:49:51,810 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:49:51,810 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:49:51,810 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:49:51,930 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:49:52,811 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:57,842 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:49:58,313 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:49:58,313 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:49:58,392 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:50:03,485 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:08,513 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:12,676 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:50:13,322 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:50:13,322 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:50:13,402 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:50:14,473 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:14,957 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:50:14,958 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:50:14,958 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:50:14,958 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:50:15,117 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:50:19,998 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:25,019 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:28,344 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:50:28,344 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:50:28,407 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:50:31,477 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:36,500 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:38,630 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:50:38,631 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:50:38,631 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:50:38,631 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:50:39,331 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:50:41,659 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:42,680 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:50:43,352 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:50:43,353 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:50:43,414 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:50:47,604 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:52,638 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:57,674 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:50:58,365 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:50:58,365 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:50:58,427 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:51:01,597 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:51:01,598 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:51:01,598 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:51:01,598 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:51:02,554 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:51:03,607 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:08,634 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:12,685 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:51:13,361 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:51:13,361 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:51:13,424 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:51:14,605 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:19,632 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:24,433 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:51:24,434 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:51:24,434 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:51:24,434 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:51:24,749 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:51:25,442 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:28,370 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:51:28,370 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:51:28,434 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:51:31,213 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:36,247 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:41,294 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:42,690 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:51:43,378 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:51:43,379 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:51:43,441 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:51:46,536 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:47,390 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:51:47,390 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:51:47,391 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:51:47,391 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:51:47,937 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:51:52,409 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:57,441 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:51:58,368 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:51:58,369 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:51:58,444 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:52:02,625 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:07,652 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:10,357 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:52:10,358 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:52:10,358 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:52:10,358 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:52:11,109 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:52:12,704 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:52:12,705 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:13,377 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:52:13,378 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:52:13,456 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:52:18,662 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:23,703 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:28,396 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:52:28,396 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:52:28,457 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:52:29,684 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:33,572 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:52:33,573 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:52:33,573 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:52:33,574 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:52:34,327 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:52:35,355 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 15:52:35,591 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:40,607 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:42,717 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:52:43,406 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:52:43,406 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:52:43,470 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:52:45,687 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:50,720 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:55,751 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:52:56,227 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:52:56,227 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:52:56,227 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:52:56,227 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:52:56,554 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:52:58,406 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:52:58,406 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:52:58,485 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:53:01,648 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:06,675 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:11,699 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:12,769 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:53:13,425 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:53:13,425 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:53:13,488 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:53:17,633 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:18,782 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:53:18,783 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:53:18,783 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:53:18,783 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:53:19,788 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:53:22,813 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:27,845 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:28,429 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:53:28,429 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:53:28,491 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:53:33,100 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:38,126 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:41,356 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:53:41,357 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:53:41,357 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:53:41,357 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:53:41,958 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:53:42,747 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:53:43,438 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:53:43,438 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:53:43,501 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:53:43,671 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:48,711 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:53,745 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:53:58,451 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:53:58,451 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:53:58,514 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:53:59,628 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:04,088 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:54:04,089 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:54:04,089 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:54:04,090 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:54:04,125 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:54:05,099 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:10,129 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:12,758 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:54:13,462 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:54:13,462 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:54:13,525 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:54:15,630 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:20,667 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:25,701 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:26,802 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:54:26,803 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:54:26,803 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:54:26,803 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:54:27,319 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:54:28,483 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:54:28,483 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:54:28,531 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:54:31,702 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:36,730 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:41,760 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:42,765 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:54:43,490 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:54:43,490 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:54:43,536 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:54:47,723 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:49,462 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:54:49,462 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:54:49,462 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:54:49,463 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:54:49,485 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:54:53,512 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:54:58,497 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:54:58,498 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:54:58,529 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:54:58,746 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:03,780 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:08,816 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:12,170 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:55:12,171 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:55:12,171 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:55:12,171 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:55:12,715 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:55:12,765 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:55:13,504 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:55:13,504 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:55:13,536 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:55:14,698 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:19,727 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:24,760 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:28,505 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:55:28,505 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:55:28,537 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:55:30,751 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:34,719 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:55:34,719 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:55:34,720 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:55:34,720 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:55:34,924 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:55:36,744 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:41,773 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:42,775 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:55:43,497 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:55:43,497 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:55:43,529 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:55:47,693 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:52,727 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:57,317 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:55:57,317 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:55:57,318 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:55:57,318 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:55:58,123 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:55:58,329 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:55:58,503 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:55:58,503 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:55:58,535 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:56:03,786 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:08,823 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:12,781 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:56:13,504 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:56:13,504 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:56:13,535 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:56:14,682 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:19,701 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:19,912 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:56:19,912 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:56:19,913 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:56:19,913 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:56:20,316 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:56:22,327 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 15:56:24,932 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:28,499 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:56:28,499 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:56:28,547 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:56:30,727 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:35,762 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:40,794 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:42,696 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:56:42,697 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:56:42,697 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:56:42,697 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:56:42,787 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:56:43,515 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:56:43,515 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:56:43,516 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:56:43,562 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:56:46,755 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:51,785 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:56,818 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:56:58,512 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:56:58,512 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:56:58,574 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:57:02,295 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:05,875 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:57:05,875 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:57:05,875 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:57:05,876 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:57:06,721 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:57:07,882 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:12,795 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:57:13,514 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:57:13,514 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:57:13,577 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:57:13,684 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:18,723 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:23,757 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:28,528 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:57:28,528 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:57:28,590 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:57:29,000 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:57:31,442 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:57:31,443 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:31,443 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:57:31,443 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:57:31,943 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:57:36,466 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:41,493 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:42,798 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:57:43,539 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:57:43,539 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:57:43,601 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:57:46,735 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:51,763 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:52,602 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:57:52,603 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:57:52,603 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:57:52,603 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:57:53,133 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:57:57,630 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:57:58,550 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:57:58,550 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:57:58,614 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:58:02,767 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:07,798 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:12,809 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:58:12,810 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:13,563 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:58:13,563 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:58:13,626 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:58:15,859 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:58:15,859 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:58:15,859 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:58:15,860 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:58:16,378 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:58:17,876 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:22,903 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:27,953 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:28,579 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:58:28,579 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:58:28,626 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:58:33,847 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:38,865 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:39,274 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:58:39,275 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:58:39,275 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:58:39,275 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:58:39,616 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:58:42,814 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:58:43,586 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:58:43,586 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:58:43,632 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:58:44,752 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:49,792 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:54,821 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:58:58,603 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:58:58,603 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:58:58,635 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:59:00,794 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:01,959 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:59:01,960 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:59:01,960 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:59:01,960 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:59:02,820 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:59:05,984 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:11,007 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:12,826 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:59:13,609 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:59:13,609 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:59:13,641 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:59:16,878 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:21,914 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:24,588 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:59:24,589 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:59:24,589 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:59:24,589 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:59:25,038 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:59:27,598 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:28,622 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:59:28,622 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:59:28,653 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:59:32,851 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:37,889 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:42,838 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 15:59:43,623 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:59:43,623 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:59:43,655 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 15:59:43,873 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:47,101 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 15:59:47,102 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 15:59:47,102 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 15:59:47,102 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 15:59:47,230 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 15:59:49,121 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:54,153 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 15:59:58,638 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 15:59:58,638 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 15:59:58,669 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:00:01,046 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:06,077 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:10,348 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:00:10,349 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:00:10,349 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:00:10,349 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:00:10,468 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:00:11,363 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:11,472 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:00:12,839 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:00:13,645 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:00:13,645 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:00:13,677 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:00:16,905 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:21,927 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:26,950 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:28,648 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:00:28,649 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:00:28,680 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:00:32,821 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:34,380 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:00:34,380 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:00:34,380 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:00:34,381 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:00:34,725 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:00:38,398 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:42,849 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:00:43,661 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:00:43,661 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:00:43,693 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:00:43,839 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:48,876 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:53,911 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:00:57,401 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:00:57,401 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:00:57,401 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:00:57,402 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:00:57,919 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:00:58,659 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:00:58,659 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:00:58,706 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:00:59,881 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:04,906 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:09,941 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:12,883 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:01:13,664 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:01:13,664 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:01:13,711 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:01:15,907 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:20,274 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:01:20,274 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:01:20,274 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:01:20,275 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:01:21,171 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:01:21,281 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:26,310 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:28,682 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:01:28,682 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:01:28,713 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:01:31,911 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:36,945 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:41,986 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:42,869 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:01:43,036 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:01:43,037 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:01:43,037 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:01:43,038 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:01:43,357 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:01:43,687 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:01:43,687 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:01:43,718 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:01:47,919 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:52,946 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:58,001 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:01:58,692 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:01:58,692 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:01:58,724 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:02:03,905 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:05,711 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:02:05,711 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:02:05,711 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:02:05,711 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:02:06,589 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:02:09,742 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:12,880 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:02:13,696 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:02:13,696 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:02:13,727 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:02:14,874 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:19,904 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:24,920 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:28,680 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:02:28,680 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:02:28,680 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:02:28,681 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:02:28,704 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:02:28,704 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:02:28,740 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:02:28,824 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:02:29,949 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:34,995 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:40,021 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:42,887 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:02:43,716 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:02:43,717 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:02:43,756 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:02:45,875 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:50,908 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:52,281 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:02:52,282 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:02:52,282 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:02:52,282 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:02:53,061 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:02:56,306 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:02:58,724 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:02:58,724 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:02:58,756 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:03:01,940 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:06,970 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:12,005 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:12,897 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:03:13,730 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:03:13,730 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:03:13,762 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:03:15,370 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:03:15,371 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:03:15,371 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:03:15,371 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:03:16,291 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:03:17,390 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:22,410 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:27,448 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:28,741 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:03:28,741 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:03:28,773 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:03:32,725 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:37,748 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:38,100 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:03:38,100 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:03:38,100 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:03:38,101 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:03:38,483 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:03:42,911 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:03:42,912 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:43,752 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:03:43,752 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:03:43,783 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:03:47,967 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:53,009 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:58,064 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:03:58,771 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:03:58,771 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:03:58,786 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:04:00,461 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:04:00,462 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:04:00,462 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:04:00,462 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:04:00,684 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:04:02,698 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:04:03,481 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:08,529 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:12,913 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:04:13,759 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:04:13,759 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:04:13,788 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:04:13,923 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:18,973 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:23,275 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:04:23,276 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:04:23,276 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:04:23,276 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:04:23,871 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:04:24,279 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:28,770 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:04:28,770 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:04:28,785 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:04:30,019 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:35,058 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:40,084 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:42,914 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:04:43,776 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:04:43,776 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:04:43,791 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:04:46,033 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:04:46,034 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:04:46,034 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:04:46,034 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:46,035 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:04:46,069 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:04:51,051 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:56,088 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:04:58,785 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:04:58,785 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:04:58,801 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:05:01,994 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:07,040 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:09,379 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:05:09,380 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:05:09,380 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:05:09,380 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:05:10,280 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:05:12,389 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:12,924 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:05:13,783 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:05:13,783 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:05:13,814 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:05:17,973 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:22,995 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:28,025 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:28,787 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:05:28,787 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:05:28,819 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:05:33,291 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:33,347 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:05:33,347 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:05:33,347 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:05:33,348 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:05:33,525 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:05:38,391 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:42,936 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:05:43,775 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:05:43,775 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:05:43,822 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:05:43,922 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:48,967 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:53,993 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:05:55,859 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:05:55,859 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:05:55,859 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:05:55,860 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:05:56,743 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:05:58,784 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:05:58,785 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:05:58,832 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:06:01,092 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:06,131 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:11,172 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:12,941 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:06:13,784 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:06:13,784 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:06:13,846 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:06:16,980 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:19,231 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:06:19,233 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:06:19,233 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:06:19,233 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:06:19,955 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:06:22,244 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:27,306 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:28,797 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:06:28,797 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:06:28,859 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:06:32,806 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:37,846 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:42,887 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:42,949 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:06:43,195 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:06:43,196 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:06:43,196 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:06:43,196 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:06:43,814 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:06:43,815 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:06:43,862 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:06:44,192 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:06:48,099 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:53,159 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:58,189 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:06:58,816 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:06:58,817 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:06:58,862 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:07:04,141 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:06,313 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:07:06,314 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:07:06,314 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:07:06,314 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:07:06,398 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:07:09,333 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:12,959 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:07:13,813 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:07:13,813 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:07:13,875 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:07:15,034 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:20,076 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:25,133 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:28,829 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:07:28,829 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:07:28,891 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:07:28,903 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:07:30,935 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:07:30,935 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:07:30,935 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:30,936 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:07:31,599 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:07:35,975 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:41,023 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:42,974 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:07:43,836 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:07:43,836 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:07:43,899 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:07:46,040 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:51,068 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:51,497 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:07:51,498 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:07:51,498 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:07:51,498 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:07:51,788 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:07:53,801 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:07:56,538 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:07:58,861 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:07:58,861 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:07:58,908 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:08:01,804 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:06,830 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:11,873 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:12,982 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:08:13,867 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:08:13,868 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:08:13,914 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:08:14,654 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:08:14,654 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:08:14,654 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:08:14,655 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:08:14,993 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:08:17,666 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:22,706 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:27,762 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:28,869 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:08:28,869 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:08:28,917 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:08:33,086 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:37,838 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:08:37,839 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:08:37,839 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:08:37,839 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:08:38,236 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:08:38,849 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:42,990 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:08:43,879 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:08:43,879 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:08:43,926 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:08:44,137 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:49,182 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:54,213 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:08:58,873 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:08:58,873 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:08:58,936 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:09:00,041 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:00,525 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:09:00,525 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:09:00,526 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:09:00,526 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:09:01,421 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:09:05,556 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:10,612 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:13,042 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:09:13,890 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:09:13,890 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:09:13,937 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:09:16,103 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:21,126 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:22,873 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:09:22,874 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:09:22,874 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:09:22,874 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:09:23,575 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:09:26,895 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:28,895 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:09:28,895 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:09:28,942 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:09:32,114 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:37,145 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:42,186 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:42,996 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:09:43,903 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:09:43,903 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:09:43,949 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:09:44,709 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:09:44,710 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:09:44,710 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:09:44,710 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:09:44,775 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:09:47,732 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:52,777 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:57,815 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:09:58,912 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:09:58,912 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:09:58,960 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:10:03,235 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:07,304 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:10:07,304 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:10:07,304 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:10:07,305 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:10:07,979 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:10:08,308 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:13,004 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:10:13,914 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:10:13,914 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:10:13,962 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:10:14,117 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:19,151 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:24,180 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:28,918 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:10:28,918 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:10:28,964 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:10:29,474 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:10:29,474 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:10:29,474 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:10:29,475 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:29,476 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:10:30,183 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:10:34,498 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:39,539 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:43,020 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:10:43,927 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:10:43,927 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:10:43,975 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:10:45,150 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:50,203 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:51,068 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:10:51,069 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:10:51,069 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:10:51,069 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:10:51,337 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:10:56,112 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:10:58,922 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:10:58,922 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:10:58,984 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:11:01,185 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:06,217 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:11,233 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:12,482 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:11:12,482 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:11:12,482 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:11:12,484 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:11:12,512 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:11:13,032 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:11:13,927 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:11:13,927 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:11:13,991 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:11:17,219 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:22,242 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:27,277 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:28,926 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:11:28,926 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:11:29,004 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:11:33,196 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:34,041 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:11:34,042 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:11:34,042 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:11:34,043 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:11:34,696 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:11:36,713 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:11:39,072 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:43,042 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:11:43,928 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:11:43,928 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:11:44,007 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:11:44,097 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:49,121 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:54,172 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:11:55,849 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:11:55,850 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:11:55,850 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:11:55,850 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:11:55,877 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:11:58,929 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:11:58,929 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:11:59,007 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:12:01,738 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:06,754 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:11,791 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:13,042 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:12:13,952 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:12:13,952 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:12:14,014 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:12:17,207 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:17,462 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:12:17,463 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:12:17,463 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:12:17,463 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:12:18,087 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:12:22,492 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:27,516 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:28,962 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:12:28,962 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:12:29,025 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:12:33,221 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:38,265 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:38,897 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:12:38,898 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:12:38,898 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:12:38,899 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:12:39,280 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:12:43,054 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:12:43,983 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:12:43,983 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:12:44,030 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:12:44,216 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:49,244 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:54,277 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:12:58,985 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:12:58,985 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:12:59,032 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:13:00,233 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:00,535 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:13:00,535 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:13:00,535 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:13:00,536 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:13:01,460 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:13:05,561 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:10,591 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:13,059 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:13:13,998 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:13:13,998 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:13:14,045 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:13:16,268 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:21,302 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:22,174 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:13:22,175 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:13:22,175 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:13:22,175 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:13:22,631 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:13:27,209 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:29,006 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:13:29,006 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:13:29,054 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:13:32,251 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:37,281 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:42,306 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:43,072 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:13:43,821 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:13:43,822 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:13:43,822 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:13:43,822 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:13:43,823 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:13:43,995 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:13:43,995 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:13:44,058 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:13:48,282 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:53,316 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:58,339 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:13:59,011 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:13:59,011 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:13:59,073 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:14:04,321 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:05,581 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:14:05,582 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:14:05,582 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:14:05,582 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:14:06,023 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:14:09,606 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:13,082 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:14:14,021 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:14:14,021 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:14:14,084 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:14:15,256 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:20,278 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:25,301 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:27,226 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:14:27,227 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:14:27,227 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:14:27,227 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:14:28,238 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:14:29,026 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:14:29,026 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:14:29,088 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:14:31,248 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:36,271 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:41,306 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:43,095 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:14:44,049 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:14:44,049 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:14:44,095 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:14:46,332 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:49,005 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:14:49,006 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:14:49,006 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:14:49,006 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:14:49,419 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:14:52,025 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:57,051 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:14:59,047 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:14:59,047 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:14:59,111 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:15:02,322 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:07,357 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:10,801 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:15:10,802 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:15:10,802 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:15:10,803 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:15:11,638 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:15:12,821 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:13,103 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:15:13,654 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:15:14,044 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:15:14,044 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:15:14,123 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:15:18,295 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:23,343 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:28,381 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:29,066 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:15:29,066 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:15:29,128 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:15:32,520 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:15:32,520 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:15:32,520 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:15:32,521 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:15:32,821 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:15:33,528 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:38,573 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:43,110 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:15:44,070 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:15:44,070 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:15:44,134 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:15:44,288 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:49,311 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:54,004 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:15:54,005 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:15:54,005 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:15:54,005 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:15:55,003 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:15:55,019 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:15:59,087 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:15:59,087 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:15:59,149 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:16:00,250 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:05,277 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:10,316 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:13,125 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:16:14,099 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:16:14,099 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:16:14,170 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:16:15,127 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:16:15,127 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:16:15,127 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:16:15,128 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:16:15,175 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:16:16,134 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:21,161 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:26,193 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:29,114 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:16:29,114 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:16:29,162 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:16:31,343 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:35,948 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:16:35,948 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:16:35,949 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:16:35,949 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:16:36,366 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:16:36,950 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:41,991 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:43,135 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:16:44,111 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:16:44,111 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:16:44,174 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:16:47,286 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:52,311 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:56,816 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:16:56,816 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:16:56,817 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:16:56,817 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:16:57,529 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:16:57,826 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:16:59,124 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:16:59,124 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:16:59,186 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:17:03,311 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:08,348 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:13,164 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:17:14,138 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:17:14,138 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:17:14,201 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:17:14,288 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:17,724 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:17:17,725 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:17:17,725 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:17:17,725 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:17:18,708 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:17:19,745 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:24,782 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:29,140 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:17:29,140 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:17:29,202 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:17:30,381 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:35,417 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:38,623 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:17:38,624 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:17:38,624 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:17:38,624 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:17:38,864 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:17:40,639 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:43,158 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:17:44,150 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:17:44,150 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:17:44,213 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:17:46,427 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:51,449 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:56,474 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:17:59,155 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:17:59,155 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:17:59,217 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:18:00,238 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:18:00,615 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:18:00,615 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:18:00,616 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:18:01,060 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:18:01,632 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:06,674 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:11,694 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:13,172 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:18:14,149 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:18:14,149 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:18:14,228 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:18:17,361 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:21,953 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:18:21,954 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:18:21,954 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:18:21,954 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:18:22,262 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:18:22,965 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:27,990 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:29,169 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:18:29,169 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:18:29,232 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:18:33,389 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:38,436 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:43,168 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:18:44,178 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:44,178 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:18:44,178 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:18:44,240 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:18:44,280 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:18:44,424 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:18:44,424 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:18:44,424 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:18:44,506 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:18:46,537 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:18:49,462 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:54,479 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:18:59,191 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:18:59,191 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:18:59,252 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:19:00,358 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:05,386 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:06,450 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:19:06,450 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:19:06,451 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:19:06,451 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:19:06,721 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:19:10,485 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:13,177 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:19:14,193 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:19:14,193 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:19:14,255 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:19:16,381 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:21,402 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:26,435 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:28,614 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:19:28,614 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:19:28,615 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:19:28,615 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:19:28,923 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:19:29,203 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:19:29,203 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:19:29,265 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:19:32,363 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:37,387 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:42,420 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:43,189 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:19:44,196 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:19:44,196 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:19:44,276 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:19:47,492 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:50,934 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:19:50,935 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:19:50,935 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:19:50,935 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:19:51,151 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:19:52,945 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:57,976 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:19:59,212 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:19:59,212 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:19:59,291 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:20:03,536 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:08,558 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:13,106 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:20:13,106 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:20:13,107 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:20:13,107 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:20:13,190 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:20:13,380 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:20:14,195 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:14,227 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:20:14,227 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:20:14,306 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:20:19,519 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:24,546 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:29,226 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:20:29,226 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:20:29,319 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:20:31,359 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:35,031 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:20:35,032 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:20:35,032 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:20:35,032 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:20:35,634 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:20:37,051 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:42,082 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:43,196 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:20:44,238 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:20:44,238 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:20:44,334 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:20:47,470 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:52,514 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:57,108 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:20:57,109 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:20:57,109 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:20:57,109 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:20:57,832 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:20:58,116 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:20:59,250 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:20:59,250 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:20:59,346 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:21:03,867 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:08,898 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:13,205 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:21:14,207 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:14,254 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:21:14,254 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:21:14,348 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:21:19,297 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:21:19,298 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:21:19,298 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:21:19,298 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:19,298 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:21:20,045 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:21:24,342 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:29,257 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:21:29,257 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:21:29,350 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:21:31,300 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:36,335 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:41,347 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:41,481 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:21:41,482 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:21:41,482 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:21:41,482 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:21:42,260 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:21:43,205 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:21:44,275 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:21:44,275 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:21:44,352 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:21:46,542 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:51,582 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:56,612 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:21:59,293 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-23 16:21:59,293 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: stop_status
+2024-02-23 16:21:59,356 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:22:02,539 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:22:04,106 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-23 16:22:04,107 DEBUG   SenderThread:13952 [sender.py:send():382] send: history
+2024-02-23 16:22:04,107 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: summary_record
+2024-02-23 16:22:04,108 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:22:04,108 DEBUG   SenderThread:13952 [sender.py:send():382] send: exit
+2024-02-23 16:22:04,108 INFO    SenderThread:13952 [sender.py:send_exit():589] handling exit code: 0
+2024-02-23 16:22:04,108 INFO    SenderThread:13952 [sender.py:send_exit():591] handling runtime: 4522
+2024-02-23 16:22:04,108 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:22:04,108 INFO    SenderThread:13952 [sender.py:send_exit():597] send defer
+2024-02-23 16:22:04,109 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,109 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-23 16:22:04,109 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,109 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-23 16:22:04,109 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 1
+2024-02-23 16:22:04,109 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,109 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-23 16:22:04,109 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,109 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-23 16:22:04,109 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 2
+2024-02-23 16:22:04,109 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,109 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-23 16:22:04,109 INFO    HandlerThread:13952 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-23 16:22:04,109 INFO    HandlerThread:13952 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-23 16:22:04,110 DEBUG   SystemMonitor:13952 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-23 16:22:04,110 INFO    HandlerThread:13952 [interfaces.py:finish():202] Joined disk monitor
+2024-02-23 16:22:04,117 DEBUG   SystemMonitor:13952 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-23 16:22:04,150 INFO    HandlerThread:13952 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-23 16:22:04,150 INFO    HandlerThread:13952 [interfaces.py:finish():202] Joined memory monitor
+2024-02-23 16:22:04,150 INFO    HandlerThread:13952 [interfaces.py:finish():202] Joined network monitor
+2024-02-23 16:22:04,150 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,150 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-23 16:22:04,150 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 3
+2024-02-23 16:22:04,151 DEBUG   SenderThread:13952 [sender.py:send():382] send: stats
+2024-02-23 16:22:04,151 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,151 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-23 16:22:04,151 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,151 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-23 16:22:04,151 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 4
+2024-02-23 16:22:04,151 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,151 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-23 16:22:04,151 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,151 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-23 16:22:04,151 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 5
+2024-02-23 16:22:04,152 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,152 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-23 16:22:04,152 DEBUG   SenderThread:13952 [sender.py:send():382] send: summary
+2024-02-23 16:22:04,152 INFO    SenderThread:13952 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-23 16:22:04,152 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,152 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-23 16:22:04,152 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 6
+2024-02-23 16:22:04,152 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,153 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-23 16:22:04,153 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,153 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-23 16:22:04,153 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 7
+2024-02-23 16:22:04,153 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: status_report
+2024-02-23 16:22:04,153 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,153 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-23 16:22:04,153 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,153 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-23 16:22:04,474 INFO    Thread-12 :13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:22:04,775 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 8
+2024-02-23 16:22:04,776 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,776 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-23 16:22:04,776 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,776 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-23 16:22:04,776 INFO    SenderThread:13952 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-23 16:22:04,779 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 9
+2024-02-23 16:22:04,779 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:04,779 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-23 16:22:04,779 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:04,779 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-23 16:22:04,779 INFO    SenderThread:13952 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-23 16:22:05,122 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-23 16:22:05,480 INFO    SenderThread:13952 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:22:05,481 INFO    SenderThread:13952 [dir_watcher.py:finish():388] scan: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files
+2024-02-23 16:22:05,481 INFO    SenderThread:13952 [dir_watcher.py:finish():402] scan save: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log output.log
+2024-02-23 16:22:05,481 INFO    SenderThread:13952 [dir_watcher.py:finish():402] scan save: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json wandb-summary.json
+2024-02-23 16:22:05,483 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 10
+2024-02-23 16:22:05,483 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: poll_exit
+2024-02-23 16:22:05,483 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:05,484 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-23 16:22:05,485 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:05,485 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-23 16:22:05,485 INFO    SenderThread:13952 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-23 16:22:06,039 INFO    wandb-upload_0:13952 [upload_job.py:push():131] Uploaded file D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\output.log
+2024-02-23 16:22:06,040 INFO    wandb-upload_1:13952 [upload_job.py:push():131] Uploaded file D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\files\wandb-summary.json
+2024-02-23 16:22:06,133 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-23 16:22:06,133 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: poll_exit
+2024-02-23 16:22:06,244 INFO    Thread-11 :13952 [sender.py:transition_state():617] send defer: 11
+2024-02-23 16:22:06,244 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:06,244 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-23 16:22:06,244 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:06,244 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-23 16:22:06,244 INFO    SenderThread:13952 [file_pusher.py:join():178] waiting for file pusher
+2024-02-23 16:22:06,245 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 12
+2024-02-23 16:22:06,245 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:06,245 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-23 16:22:06,245 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:06,245 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-23 16:22:06,245 INFO    SenderThread:13952 [file_stream.py:finish():595] file stream finish called
+2024-02-23 16:22:06,828 INFO    SenderThread:13952 [file_stream.py:finish():599] file stream finish is done
+2024-02-23 16:22:06,829 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 13
+2024-02-23 16:22:06,829 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:06,829 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-23 16:22:06,829 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:06,829 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-23 16:22:06,829 INFO    SenderThread:13952 [sender.py:transition_state():617] send defer: 14
+2024-02-23 16:22:06,829 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: defer
+2024-02-23 16:22:06,829 DEBUG   SenderThread:13952 [sender.py:send():382] send: final
+2024-02-23 16:22:06,829 INFO    HandlerThread:13952 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-23 16:22:06,829 DEBUG   SenderThread:13952 [sender.py:send():382] send: footer
+2024-02-23 16:22:06,830 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: defer
+2024-02-23 16:22:06,830 INFO    SenderThread:13952 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-23 16:22:06,830 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-23 16:22:06,830 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-23 16:22:06,830 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: server_info
+2024-02-23 16:22:06,830 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: poll_exit
+2024-02-23 16:22:06,830 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-23 16:22:06,830 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: poll_exit
+2024-02-23 16:22:06,831 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-23 16:22:06,831 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: server_info
+2024-02-23 16:22:06,831 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-23 16:22:06,833 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: job_info
+2024-02-23 16:22:07,022 DEBUG   SenderThread:13952 [sender.py:send_request():409] send_request: job_info
+2024-02-23 16:22:07,022 INFO    MainThread:13952 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-23 16:22:07,023 INFO    MainThread:13952 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-23 16:22:07,023 INFO    MainThread:13952 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-23 16:22:07,024 DEBUG   HandlerThread:13952 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-23 16:22:07,024 INFO    HandlerThread:13952 [handler.py:finish():869] shutting down handler
+2024-02-23 16:22:07,843 INFO    WriterThread:13952 [datastore.py:close():296] close: D:\GithubProject\MCV-C5-G3\Week1\wandb\run-20240223_150641-p67x5lln\run-p67x5lln.wandb
+2024-02-23 16:22:08,030 INFO    SenderThread:13952 [sender.py:finish():1572] shutting down sender
+2024-02-23 16:22:08,030 INFO    SenderThread:13952 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-23 16:22:08,030 INFO    SenderThread:13952 [file_pusher.py:join():178] waiting for file pusher
