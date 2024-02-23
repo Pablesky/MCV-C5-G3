@@ -54,7 +54,6 @@ def compute_padding(input_size, output_size, kernel_size, stride):
     return math.ceil(((output_size - 1) * stride - input_size + kernel_size))
 
 def he_initialization(layer):
-    HE_INITIALIZER = False
     if HE_INITIALIZER:
         nn.init.kaiming_normal_(layer.weight, mode='fan_in')
         nn.init.zeros_(layer.bias)
@@ -157,6 +156,7 @@ def accuracy_fn_tensors(y_true, y_pred):
 if __name__ == '__main__':
 
     regularizer = 5e-3
+    HE_INITIALIZER = True
 
     wandb.init(
         # set the wandb project where this run will be logged
@@ -164,7 +164,7 @@ if __name__ == '__main__':
         
         # track hyperparameters and run metadata
         config={
-        'Weights Initialization': 'None',
+        'Weights Initialization': 'He' if HE_INITIALIZER else 'None',
         'Regularization': str(regularizer),
         }
     )
