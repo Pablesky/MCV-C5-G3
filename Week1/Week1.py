@@ -155,7 +155,7 @@ def accuracy_fn_tensors(y_true, y_pred):
 
 if __name__ == '__main__':
 
-    regularizer = 5e-3
+    regularizer = 2e-2
     HE_INITIALIZER = True
 
     wandb.init(
@@ -247,6 +247,5 @@ if __name__ == '__main__':
             # Print out what's happening
         if epoch % 10 == 0:
             print(f"Epoch: {epoch} | Loss: {loss_train_1:.5f}, Train Accuracy: {acc_1:.5f}, Test Loss: {test_loss_1:.5f}, Test Accuracy: {accuracy_test_1:.5f}")
-    
 
 

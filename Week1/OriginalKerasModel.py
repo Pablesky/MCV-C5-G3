@@ -123,7 +123,7 @@ def best_model(input_shape, classes, activation, regularizer, initializer):
 
 BATCH_SIZE= 8
 ACTIVATION= 'leakyrelu'
-REGULARIZER = l2(0.01)
+REGULARIZER = l2(0.02)
 INITIALIZER = 'he_normal'
 IMG_HEIGHT=360
 IMG_WIDTH = 360
