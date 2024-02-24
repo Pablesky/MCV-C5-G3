@@ -11,10 +11,14 @@ The code and data is structured as follows:
 ## Requirements
 Standard Computer Vision python packages are used. Regarding the python version, Python >= 3.6 is needed.
 
-- PyTorch: $pip install torch
-- TorchVision: $pip install torchvision
-- TorchInfo: $pip install torchinfo
-- WandB: $pip install wandb
+- PyTorch:
+  ```pip install torch```
+- TorchVision:
+  ```pip install torchvision```
+- TorchInfo:
+  ```pip install torchinfo```
+- WandB:
+  ```pip install wandb```
 
 
 ## Tasks
