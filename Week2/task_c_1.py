@@ -18,6 +18,8 @@ import shutil
 import numpy as np
 
 import time
+
+import pickle
 # Load a configuration
 cfg = get_cfg()
 cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))  # Load your configuration file
@@ -44,6 +46,8 @@ validation = ['0002', '0006', '0007', '0008', '0010', '0013', '0014', '0016', '0
 timeExecution = 0
 nImages = 0
 
+timeLists = []
+
 for folder in kitti_mots:
     if folder in validation:  
         actual_folder = os.path.join(output_path, folder)
@@ -67,6 +71,8 @@ for folder in kitti_mots:
             timeExecution += (end_time - start_time)
             nImages += 1
 
+            timeLists.append(end_time - start_time)
+
             instance_output = outputs["instances"]
 
             # Car class 2 and Person class 0
@@ -87,6 +93,9 @@ for folder in kitti_mots:
             cv2.imwrite(image_out_path, imgOut)
 
 print('Average time: ', timeExecution/nImages)
+
+with open('timeListsDetection.pkl', 'wb') as f:
+    pickle.dump(timeLists, f)
         
 '''
 # Load an image
