@@ -55,7 +55,7 @@ This is where we extracted the info to understand the KITTI-MOTS dataset: https:
 '''
 if __name__ == '__main__':
 
-    number_sequence = '0001'
+    number_sequence = '0000'
     with open('../KITTI-MOTS/instances_txt/' + number_sequence + '.txt', 'r') as f:
         old_frame = None
 
@@ -76,7 +76,6 @@ if __name__ == '__main__':
             # if True:
 
                 if old_frame is None:
-                    print(frame)
                     old_frame = frame
                     image = cv2.imread('../KITTI-MOTS/training/image_02/' + number_sequence + '/' + frame, cv2.IMREAD_COLOR)
 
@@ -87,15 +86,11 @@ if __name__ == '__main__':
 
                 bboxCoordinates = mask_utils.toBbox(requirement)
 
-                print(bboxCoordinates)
-
                 x, y, w, h = bboxCoordinates
 
                 binaryMask = mask_utils.decode(requirement)
-                print(binaryMask)
 
                 if old_frame != frame:
-                    print(frame)
 
                     cv2.imshow('Image', image)
                     cv2.waitKey(1)
