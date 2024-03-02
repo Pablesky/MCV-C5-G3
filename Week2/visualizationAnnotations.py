@@ -55,7 +55,7 @@ This is where we extracted the info to understand the KITTI-MOTS dataset: https:
 '''
 if __name__ == '__main__':
 
-    number_sequence = '0001'
+    number_sequence = '0002'
     with open('../KITTI-MOTS/instances_txt/' + number_sequence + '.txt', 'r') as f:
         old_frame = None
 
@@ -93,7 +93,7 @@ if __name__ == '__main__':
                 if old_frame != frame:
 
                     cv2.imshow('Image', image)
-                    cv2.waitKey(1)
+                    cv2.waitKey(0)
 
                     image = cv2.imread('../KITTI-MOTS/training/image_02/' + number_sequence + '/' + frame, cv2.IMREAD_COLOR)
 
