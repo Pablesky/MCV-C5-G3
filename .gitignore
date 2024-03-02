@@ -2,3 +2,4 @@ KITTI-MOTS/
 *.png
 *.jpg
 *.pkl
+*.pth
