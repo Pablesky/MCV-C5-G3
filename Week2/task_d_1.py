@@ -80,14 +80,16 @@ if __name__ == '__main__':
 
     #Call the COCO Evaluator function and pass the Validation Dataset
     
-    output_evaluation_folder = 'detection-evaluation'
+    output_evaluation_folder = 'detection-evaluation-training'
     if os.path.exists(output_evaluation_folder):  
         shutil.rmtree(output_evaluation_folder)
 
     os.mkdir(output_evaluation_folder)
 
-    evaluator = COCOEvaluator("KITTI_MOTS_validation", output_dir = output_evaluation_folder)
-    val_loader = build_detection_test_loader(cfg, "KITTI_MOTS_validation")
+    dataset_to_evaluate = "KITTI_MOTS_training"
+    # dataset_to_evaluate = "KITTI_MOTS_validation"
+    evaluator = COCOEvaluator(dataset_to_evaluate, output_dir = output_evaluation_folder)
+    val_loader = build_detection_test_loader(cfg, dataset_to_evaluate)
 
     #Use the created predicted model in the previous step
     st = inference_on_dataset(predictor.model, val_loader, evaluator)

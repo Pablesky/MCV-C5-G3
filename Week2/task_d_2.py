@@ -31,7 +31,6 @@ from kitti2coco import *
 
 """
 EVAL FASTER-RCNN ON COCO METRICS
-
 """
 
 if __name__ == '__main__':
@@ -85,8 +84,11 @@ if __name__ == '__main__':
 
     os.mkdir(output_evaluation_folder)
 
-    evaluator = COCOEvaluator("KITTI_MOTS_validation", output_dir = output_evaluation_folder)
-    val_loader = build_detection_test_loader(cfg, "KITTI_MOTS_validation")
+    # dataset_to_evaluate = "KITTI_MOTS_training"
+    dataset_to_evaluate = "KITTI_MOTS_validation"
+
+    evaluator = COCOEvaluator(dataset_to_evaluate, tasks = ["bbox", "segm"], output_dir = output_evaluation_folder)
+    val_loader = build_detection_test_loader(cfg, dataset_to_evaluate)
 
     #Use the created predicted model in the previous step
     st = inference_on_dataset(predictor.model, val_loader, evaluator)
