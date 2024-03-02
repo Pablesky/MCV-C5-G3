@@ -19,3 +19,5 @@ if __name__ == "__main__":
     # python train_dual.py --batch 8 --epochs 25 --img 640 --device 0 --min-items 0 --close-mosaic 15 --data data/KITTI-MOTS/data.yaml --weights weights/yolov9-c.pt --cfg models/detect/yolov9-c.yaml --hyp hyp.scratch-high.yaml
     # With --bath 16 -> 20 GB of VRAM
 
+    # Also the BBox of yolo are in the shape of (x_center, y_center, width, height) and normalized to the image size
+
