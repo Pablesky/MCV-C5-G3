@@ -60,6 +60,8 @@ def get_data_dict(data_folders):
 
                 bboxCoordinates = mask_utils.toBbox(rleObject).tolist() # im not sure im doing this right, but im going to suppose this are the coordinates of the bb
 
+                segmentation_value = rleObject
+
                 if class_id != 10000 and class_id != 10: # Si es el objeto ese del fondo no queremos meterlo en el dataset, entonces lo skipeamos
 
                     if oldFrame is None:
@@ -75,7 +77,7 @@ def get_data_dict(data_folders):
                             "id": id_tracking,
                             "bbox": bboxCoordinates,
                             "bbox_mode": BoxMode.XYWH_ABS,
-                            "segmentation": rleObject,
+                            "segmentation": segmentation_value,
                             "category_id": mapping_kitti_2_coco[class_id],
                         }
                         objs.append(obj)
@@ -103,7 +105,7 @@ def get_data_dict(data_folders):
                             "id": id_tracking,
                             "bbox": bboxCoordinates,
                             "bbox_mode": BoxMode.XYWH_ABS,
-                            "segmentation": rleObject,
+                            "segmentation": segmentation_value,
                             "category_id": mapping_kitti_2_coco[class_id],
                         }
 
@@ -118,7 +120,7 @@ def get_data_dict(data_folders):
                             "id": id_tracking,
                             "bbox": bboxCoordinates,
                             "bbox_mode": BoxMode.XYWH_ABS,
-                            "segmentation": rleObject,
+                            "segmentation": segmentation_value,
                             "category_id": mapping_kitti_2_coco[class_id],
                         }
                         objs.append(obj)

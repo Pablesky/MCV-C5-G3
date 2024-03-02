@@ -54,27 +54,31 @@ if __name__ == '__main__':
     # register_coco_instances("my_dataset_val", {}, "./validation_COCO_GT.json", "../KITTI-MOTS/testing/image_02'")
 
     for i in ['training', 'validation']:
-        DatasetCatalog.register("my_dataset_" + i, lambda d=i: get_data_dict(datasets_folders[d]))
-        MetadataCatalog.get("my_dataset_" + i).set(thing_classes=MetadataCatalog.get(cfg.DATASETS.TRAIN[0]).thing_classes)
+        DatasetCatalog.register("KITTI_MOTS_" + i, lambda d=i: get_data_dict(datasets_folders[d]))
+        MetadataCatalog.get("KITTI_MOTS_" + i).set(thing_classes=MetadataCatalog.get(cfg.DATASETS.TRAIN[0]).thing_classes)
 
-    coco_labels = MetadataCatalog.get("my_dataset_training").thing_classes
+    coco_labels = MetadataCatalog.get("KITTI_MOTS_training").thing_classes
+
+    print(len(coco_labels))
 
     dataset_dicts = get_data_dict(datasets_folders['training'])
-    dataset_metadata = MetadataCatalog.get("my_dataset_training")
+    dataset_metadata = MetadataCatalog.get("KITTI_MOTS_training")
 
-    for d in random.sample(dataset_dicts, 3):
-        img = cv2.imread(d["file_name"])
-        visualizer = Visualizer(img[:, :, ::-1], metadata=dataset_metadata, scale=0.5)
-        out = visualizer.draw_dataset_dict(d)
-        cv2.imshow('frame', out.get_image()[:, :, ::-1])
-        cv2.waitKey(0)
+    # Set to true to visualize the images
+    if False:
+        for d in random.sample(dataset_dicts, 3):
+            img = cv2.imread(d["file_name"])
+            visualizer = Visualizer(img[:, :, ::-1], metadata=dataset_metadata, scale=0.5)
+            out = visualizer.draw_dataset_dict(d)
+            cv2.imshow('frame', out.get_image()[:, :, ::-1])
+            cv2.waitKey(0)
 
-    cv2.destroyAllWindows()
+        cv2.destroyAllWindows()
 
     cfg = get_cfg()
     cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
-    cfg.DATASETS.TRAIN = ("my_dataset_training")
-    cfg.DATASETS.TEST = ("my_dataset_validation")
+    cfg.DATASETS.TRAIN = ("KITTI_MOTS_training", )
+    cfg.DATASETS.TEST = ()
     cfg.DATALOADER.NUM_WORKERS = 2
     cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")  # Let training initialize from model zoo
     cfg.SOLVER.IMS_PER_BATCH = 2  # This is the real "batch size" commonly known to deep learning people
@@ -83,6 +87,7 @@ if __name__ == '__main__':
     cfg.SOLVER.STEPS = []        # do not decay learning rate
     cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128   # The "RoIHead batch size". 128 is faster, and good enough for this toy dataset (default: 512)
     cfg.MODEL.ROI_HEADS.NUM_CLASSES = len(coco_labels)  # only has one class (ballon). (see https://detectron2.readthedocs.io/tutorials/datasets.html#update-the-config-for-new-datasets)
+    cfg.OUTPUT_DIR = './finetune-detection'
     # NOTE: this config means the number of classes, but a few popular unofficial tutorials incorrect uses num_classes+1 here.
     
     if os.path.exists(cfg.OUTPUT_DIR):  
@@ -92,4 +97,28 @@ if __name__ == '__main__':
     trainer = DefaultTrainer(cfg) 
     trainer.resume_or_load(resume=False)
     trainer.train()
+
+    cfg = get_cfg()
+    cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))  # Load your configuration file
+    cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # set threshold for this model
+    cfg.MODEL.WEIGHTS = os.path.join('./finetune-detection', "model_final.pth")
+    cfg.OUTPUT_DIR = './finetune-detection-evaluation'
+
+    # Load pretrained weights
+    
+
+    output_evaluation_folder = cfg.OUTPUT_DIR
+    if os.path.exists(output_evaluation_folder):  
+        shutil.rmtree(output_evaluation_folder)
+
+    os.mkdir(output_evaluation_folder)
+
+    evaluator = COCOEvaluator("KITTI_MOTS_validation", output_dir = output_evaluation_folder)
+    val_loader = build_detection_test_loader(cfg, "KITTI_MOTS_validation")
+
+    predictor = DefaultPredictor(cfg)
+
+    #Use the created predicted model in the previous step
+    st = inference_on_dataset(predictor.model, val_loader, evaluator)
+
     

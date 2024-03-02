@@ -54,24 +54,25 @@ if __name__ == '__main__':
     # register_coco_instances("my_dataset_val", {}, "./validation_COCO_GT.json", "../KITTI-MOTS/testing/image_02'")
 
     for i in ['training', 'validation']:
-        DatasetCatalog.register("my_dataset_" + i, lambda d=i: get_data_dict(datasets_folders[d]))
-        MetadataCatalog.get("my_dataset_" + i).set(thing_classes=MetadataCatalog.get(cfg.DATASETS.TRAIN[0]).thing_classes)
+        DatasetCatalog.register("KITTI_MOTS_" + i, lambda d=i: get_data_dict(datasets_folders[d]))
+        MetadataCatalog.get("KITTI_MOTS_" + i).set(thing_classes=MetadataCatalog.get(cfg.DATASETS.TRAIN[0]).thing_classes)
 
     dataset_dicts = get_data_dict(datasets_folders['training'])
-    dataset_metadata = MetadataCatalog.get("my_dataset_training")
+    dataset_metadata = MetadataCatalog.get("KITTI_MOTS_training")
 
-    for d in random.sample(dataset_dicts, 3):
-        img = cv2.imread(d["file_name"])
-        visualizer = Visualizer(img[:, :, ::-1], metadata=dataset_metadata, scale=0.5)
-        out = visualizer.draw_dataset_dict(d)
-        cv2.imshow('frame', out.get_image()[:, :, ::-1])
-        cv2.waitKey(0)
+    # Set to true to visualize the images
+    if False:
+        for d in random.sample(dataset_dicts, 3):
+            img = cv2.imread(d["file_name"])
+            visualizer = Visualizer(img[:, :, ::-1], metadata=dataset_metadata, scale=0.5)
+            out = visualizer.draw_dataset_dict(d)
+            cv2.imshow('frame', out.get_image()[:, :, ::-1])
+            cv2.waitKey(0)
 
-    cv2.destroyAllWindows()
+        cv2.destroyAllWindows()
 
     # Create a predictor
     predictor = DefaultPredictor(cfg)
-
 
     # my_dataset_training
     # my_dataset_validation
@@ -84,8 +85,8 @@ if __name__ == '__main__':
 
     os.mkdir(output_evaluation_folder)
 
-    evaluator = COCOEvaluator("my_dataset_validation", output_dir = output_evaluation_folder)
-    val_loader = build_detection_test_loader(cfg, "my_dataset_validation")
+    evaluator = COCOEvaluator("KITTI_MOTS_validation", output_dir = output_evaluation_folder)
+    val_loader = build_detection_test_loader(cfg, "KITTI_MOTS_validation")
 
     #Use the created predicted model in the previous step
     st = inference_on_dataset(predictor.model, val_loader, evaluator)

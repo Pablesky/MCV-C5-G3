@@ -55,7 +55,7 @@ This is where we extracted the info to understand the KITTI-MOTS dataset: https:
 '''
 if __name__ == '__main__':
 
-    number_sequence = '0000'
+    number_sequence = '0001'
     with open('../KITTI-MOTS/instances_txt/' + number_sequence + '.txt', 'r') as f:
         old_frame = None
 
