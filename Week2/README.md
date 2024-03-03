@@ -4,9 +4,19 @@
 The code and data is structured as follows:
 
         .
-        ├── OriginalKerasModel.py        # Original image classification model in Keras
-        ├── Week1.py                     # Image classification model in Pytorch
-        └── ModelLayersKeras.txt         # Summary of the Keras model
+        project_name/
+        ├── kitti2coco.py                 # Function to transform Kitti annotations to COCO format
+        ├── kitti2yolo.py                 # Function to transform Kitti annotations to YOLO format
+        ├── task_c_1.py                   # Inference on pretrained Faster R-CNN
+        ├── task_c_2.py                   # Inference on pretrained Mask R-CNN
+        ├── task_d_1.py                   # Evaluation of pretrained Faster R-CNN
+        ├── task_d_2.py                   # Evaluation of pretrained Faster R-CNN
+        ├── task_e_1.py                   # Fine-tuning of pretrained Faster R-CNN
+        ├── task_e_1_optimization.py      # Fine-tuning of pretrained Faster R-CNN (W&B version)
+        ├── task_e_2.py                   # Fine-tuning of pretrained Mask R-CNN
+        ├── task_e_2_optimization.py      # Fine-tuning of pretrained Mask R-CNN (W&B version)
+        └── task_f.py                     # Inference and evaluation of YOLOv9
+
 
 ## Requirements
 Standard Computer Vision python packages are used. Regarding the python version, Python >= 3.6 is needed.
@@ -22,11 +32,12 @@ Standard Computer Vision python packages are used. Regarding the python version,
 
 
 ## Tasks
-The main goal of this project is to get familiarized with the PyTorch framework. Thus, the main tasks are:
+The main goal of this project is to get familiarized in object detection, recognition and segmentation, specifically in the Detectron2 framework. Thus, the main tasks are:
 
-- Understand Pytorch framework.
-- Implement Image Classification network from C3 in Pytorch.
-- Compute loss graphs and compare them with yours from Keras.
-- Compute accuracy graphs and compare them with yours from Keras.
+- c) Run inference with pre-trained Faster R-CNN (detection) and Mask R-CNN (detection and segmentation) on KITTI-MOTS dataset.
+- d) Evaluate pre-trained Faster R-CNN (detection) and Mask R-CNN (detection and segmentation) on KITTI-MOTS dataset.
+- e) Fine-tune Faster R-CNN and Mask R-CNN on KITTI-MOTS.
+- f) Apply some other object detection model (YOLO) to KITTI-MOTS.
+
 
 All the hyperparameters are optimized using wandb.ai.
