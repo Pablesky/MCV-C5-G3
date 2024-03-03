@@ -29,6 +29,7 @@ Standard Computer Vision python packages are used. Regarding the python version,
   ```pip install torchinfo```
 - WandB:
   ```pip install wandb```
+- Detectron2
 
 
 ## Tasks
