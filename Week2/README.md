@@ -15,7 +15,8 @@ The code and data is structured as follows:
         ├── task_e_1_optimization.py      # Fine-tuning of pretrained Faster R-CNN (W&B version)
         ├── task_e_2.py                   # Fine-tuning of pretrained Mask R-CNN
         ├── task_e_2_optimization.py      # Fine-tuning of pretrained Mask R-CNN (W&B version)
-        └── task_f.py                     # Inference and evaluation of YOLOv9
+        ├── task_f.py                     # Inference and evaluation of YOLOv9
+        └── visualizationAnnotations.py   # A file to see the results of the kitti2coco.py functions
 
 
 ## Requirements
