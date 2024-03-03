@@ -47,7 +47,7 @@ if __name__ == '__main__':
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # set threshold for this model
 
     # Load pretrained weights
-    cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")
+    # cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml")
 
     #register your data
     # register_coco_instances("my_dataset_train", {}, "./training_COCO_GT.json", "../KITTI-MOTS/testing/image_02'")

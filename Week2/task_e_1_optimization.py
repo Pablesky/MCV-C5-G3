@@ -116,7 +116,7 @@ if __name__ == '__main__':
     coco_labels = MetadataCatalog.get("KITTI_MOTS_training").thing_classes
 
     sweep_id = wandb.sweep(sweep_config, project="detection_optimization")
-    wandb.agent(sweep_id, function=train, count=200)
+    wandb.agent(sweep_id, function=train, count=100)
 
 
     

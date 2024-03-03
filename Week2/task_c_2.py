@@ -26,13 +26,14 @@ cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rc
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # set threshold for this model
 
 # Load pretrained weights
-cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml")
+# cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml")
+cfg.MODEL.WEIGHTS = os.path.join('./finetune-segmentation', "model_final.pth")
 
 # Create a predictor
 predictor = DefaultPredictor(cfg)
 
 
-dataset_path = '../KITTI-MOTS/testing/image_02'
+dataset_path = '../KITTI-MOTS/training/image_02'
 output_path = 'KITTI-MOTS-predicted-mask/'
 kitti_mots = os.listdir(dataset_path)
 
@@ -42,7 +43,8 @@ if os.path.exists(output_path):
 
 os.mkdir(output_path)
 
-validation = ['0002', '0006', '0007', '0008', '0010', '0013', '0014', '0016', '0018']
+# validation = ['0002', '0006', '0007', '0008', '0010', '0013', '0014', '0016', '0018']
+validation = ['0010']
 
 timeExecution = 0
 nImages = 0
