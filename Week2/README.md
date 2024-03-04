@@ -10,7 +10,7 @@ The code and data is structured as follows:
         ├── task_c_1.py                   # Inference on pretrained Faster R-CNN
         ├── task_c_2.py                   # Inference on pretrained Mask R-CNN
         ├── task_d_1.py                   # Evaluation of pretrained Faster R-CNN
-        ├── task_d_2.py                   # Evaluation of pretrained Faster R-CNN
+        ├── task_d_2.py                   # Evaluation of pretrained Mask R-CNN
         ├── task_e_1.py                   # Fine-tuning of pretrained Faster R-CNN
         ├── task_e_1_optimization.py      # Fine-tuning of pretrained Faster R-CNN (W&B version)
         ├── task_e_2.py                   # Fine-tuning of pretrained Mask R-CNN
