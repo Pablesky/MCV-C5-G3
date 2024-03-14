@@ -1,45 +1,36 @@
-import torch
-from torchvision.transforms import v2
-from torchvision import datasets
-from torch.utils.data import DataLoader
+import matplotlib.pyplot as plt
+import shutil
+import os
 
-def load_data(train_dir, test_dir, transform, batch_size=8):
-    transformTrain = v2.Compose([
-        v2.ToImage(),
-        v2.ToDtype(torch.uint8, scale=True),
-        v2.Resize((360, 360)),
-        v2.RandomAffine(
-            degrees=0,
-            translate=(0.2, 0.0),
-            scale=(1.0, 1.0),
-            shear=0.2
-        ),
-        v2.ColorJitter(brightness=(0.7, 1.3)),
-        v2.RandomHorizontalFlip(p=0.5),
-        v2.ToDtype(torch.float32, scale=True)
-    ])
+def plot_images(input_image, similar_images, number_retrieval, path):
+    f, axes = plt.subplots(5,2, figsize=(15, 15))
 
-    transformTest = v2.Compose([
-        v2.ToImage(), 
-        v2.ToDtype(torch.float32, scale=True), 
-        v2.Resize((360, 360))
-    ])
+    # Plot input image
+    axes[2, 0].imshow(input_image)
+    axes[2, 0].set_title('Input Image')
+    axes[2, 0].axis('off')
+
+    # Plot similar images
+    for i, image in enumerate(similar_images):
+        axes[i, 1].imshow(image)
+        axes[i, 1].axis('off')
+
+    axes[0, 0].set_visible(False)
+    axes[1, 0].set_visible(False)
+    axes[3, 0].set_visible(False)
+    axes[4, 0].set_visible(False)
     
-    train_data = datasets.ImageFolder(root=train_dir, # target folder of images
-                                  transform=transformTrain, # transforms to perform on data (images)
-                                  target_transform=None) # transforms to perform on labels (if necessary)
+    plt.tight_layout()
+    # plt.show()
 
-    test_data = datasets.ImageFolder(root=test_dir, 
-                                    transform=transformTest)
-    
-    train_dataloader = DataLoader(dataset=train_data, 
-                              batch_size=batch_size, # how many samples per batch?
-                              num_workers=1, # how many subprocesses to use for data loading? (higher = more)
-                              shuffle=True) # shuffle the data?
+    f.savefig(f'{path}/retrieval_{number_retrieval}.png')
+    plt.close(f)
 
-    test_dataloader = DataLoader(dataset=test_data, 
-                             batch_size=1, 
-                             num_workers=1, 
-                             shuffle=False) # don't usually need to shuffle testing data
+def reset_folder(path):
+    try:
+        shutil.rmtree(path)
 
-    return train_dataloader, test_dataloader
+    except:
+        pass
+
+    os.mkdir(path)
