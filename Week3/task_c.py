@@ -17,7 +17,7 @@ from pytorch_metric_learning.utils.accuracy_calculator import AccuracyCalculator
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 cuda = torch.cuda.is_available()
 
-# # Dataset
+
 
 
 def load_data(train_dir, test_dir, batch_size=8):
@@ -46,6 +46,9 @@ def load_data(train_dir, test_dir, batch_size=8):
     return train_data, test_data, train_dataloader, test_dataloader
 
 
+
+
+
 # # Models
 
 
@@ -72,7 +75,9 @@ class EmbeddingNet(nn.Module):
         output = output.view(size_1, size_2)
         
         return output
-    
+
+
+
 # # Train
 
 def train(model, loss_func, mining_func, device, train_loader, optimizer, epoch):
@@ -115,15 +120,14 @@ def test(train_set, test_set, model, accuracy_calculator):
 
 def caller():
 
-    lr = 0.00005977
-    n_epochs = 6
-    miner_positive = 'semihard'
-    miner_negative = 'hard'
-    loss = 'Contrastive'
-    distance = 'Cosine'
-    p_margin = 0.6403
-    n_margin = 0.9026
-    batch_size = 32
+    lr = 0.00001802
+    n_epochs = 5
+    miner = 'BatchHardMiner'
+    loss = 'TripletMarginLoss'
+    distance = 'LP'
+    margin = 0.9821
+    batch_size = 64
+    type_of_miner = 'semihard'
 
     root_dir = '../MIT_split/'
     train_dir = root_dir + 'train'
@@ -138,16 +142,18 @@ def caller():
     else:
         distance_ = distances.LpDistance()
 
-    if loss == "Contrastive":
-        loss_fn = losses.ContrastiveLoss(pos_margin=p_margin, neg_margin=n_margin, distance = distance_)
+    reducer = reducers.ThresholdReducer(low=0)
+
+    if loss == "TripletMarginLoss":
+        loss_fn = losses.TripletMarginLoss(margin=margin, distance=distance_, reducer=reducer)
     else:
-        loss_fn = losses.NTXentLoss(temperature=0.1, distance = distance_)
+        loss_fn = losses.MarginLoss(margin=margin, nu=0, beta=1.2, triplets_per_anchor="all", learn_beta=False, num_classes=None, distance = distance_)
 
-
-    miner = miners.BatchEasyHardMiner(
-        pos_strategy = miner_positive,
-        neg_strategy = miner_negative
-    )
+    if miner == "TripletMarginMiner":
+        miner = miners.TripletMarginMiner(
+        margin=margin, distance=distance_, type_of_triplets=type_of_miner)
+    else:
+        miner = miners.BatchHardMiner()
 
     
     accuracy_calculator = AccuracyCalculator(include=("precision_at_1",), k=1)
@@ -159,12 +165,15 @@ def caller():
 
     test(train_dataset, test_dataset, model, accuracy_calculator)
 
-    torch.save(model.state_dict(), 'bestModelSiamese.pth')
+    torch.save(model.state_dict(), 'bestModelTriplet.pth')
 
 
 if __name__ == '__main__':
     caller()
 
 
+
     
 
+
+    

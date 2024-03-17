@@ -65,7 +65,7 @@ class Retrieval:
 
     def compute_metrics(self, predicted_labels, index_predictions, actual_label, actual_index, plot = False):
         if plot:
-
+            
             plot_images(
                 query_image = Image.open(self.test_paths[actual_index].replace('\\', '/')), 
                 query_index = actual_index, 
@@ -214,7 +214,7 @@ if __name__ == '__main__':
     train_paths = path_images[1]
     test_paths = path_images[0]
     
-    with open('datasetResnet152.pkl', 'rb') as f:
+    with open('siamesePredictions.pkl', 'rb') as f:
         dataset_features = pickle.load(f)
 
     train_features = np.array(dataset_features[1][0])
@@ -227,7 +227,7 @@ if __name__ == '__main__':
 
     }
 
-    retr = Retrieval(retrieval_method = 'KNN', 
+    retr = Retrieval(retrieval_method = 'FAISS', 
                      retrieval_parameters = params, 
                      train_features = train_features, 
                      train_labels = train_labels, 

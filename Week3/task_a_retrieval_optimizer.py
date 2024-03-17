@@ -20,6 +20,8 @@ from metrics import compute_metrics
 
 import faiss
 
+import wandb 
+
 
 
 class Retrieval:
@@ -185,14 +187,16 @@ class Retrieval:
 
             ap_mean = np.mean(ap_per_class[i])
             ap_at_k.append(ap_mean)
+            
+            if self.plot:
+                plt.plot(recalls_mean, precissions_mean)
 
-            plt.plot(recalls_mean, precissions_mean)
-
-        plt.title('Precission-Recall curve')
-        plt.xlabel('Recall')
-        plt.ylabel('Precission')
-        plt.legend(['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding'])
-        plt.savefig(f'precission_recall{self.retrieval_method}.png')
+        if self.plot:
+            plt.title('Precission-Recall curve')
+            plt.xlabel('Recall')
+            plt.ylabel('Precission')
+            plt.legend(['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding'])
+            plt.savefig(f'precission_recall{self.retrieval_method}.png')
 
         class_list = ['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding']
 
@@ -205,8 +209,69 @@ class Retrieval:
 
         print('Mean average precission: ', map_score)
 
+        return map_score 
+
+
+def caller(config = None):
+    with wandb.init(config=config):
+
+        config = wandb.config
+
+        if retrieval_method == 'KMEANS':
+            params = {'n_clusters': config.n_clusters}
         
+        elif retrieval_method == 'KNN':
+            params = {'n_neighbors': config.n_neighbors, 'weights': config.weights, 'algorithm': config.algorithm}
+
+        retr = Retrieval(retrieval_method = retrieval_method, 
+                     retrieval_parameters = params, 
+                     train_features = train_features, 
+                     train_labels = train_labels, 
+                     test_features = test_features, 
+                     test_labels = test_labels,
+                     train_paths=train_paths,
+                     test_paths=test_paths,
+                     plot=False)
+    
+        retr.fit()
+
+        map_score = retr.retrieve_and_eval()            
+
+        wandb.log({'map' : map_score})
+
+configs = {
+    'KMEANS': {
+        'method': 'grid',
+        'metric': {'goal': 'maximize', 'name': 'map'},
+        'parameters': {
+            'n_clusters': {
+                'values':[2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+            }
+        }
+    },
+    'KNN': {
+        'method': 'random',
+        'metric': {'goal': 'maximize', 'name': 'map'},
+        'parameters': {
+            'n_neighbors': {
+                'values':[5, 8, 10, 12, 14, 16]
+            },
+
+            'weights': {
+                'values': ['uniform', 'distance']
+            },
+
+            'algorithm': {
+                'values': ['auto', 'ball_tree', 'kd_tree', 'brute']
+            }
+        }
+    }
+}
+ 
+
 if __name__ == '__main__':
+
+    retrieval_method = 'KNN'
 
     with open('paths.pkl', 'rb') as f:
         path_images = pickle.load(f)
@@ -222,21 +287,10 @@ if __name__ == '__main__':
 
     test_features = np.array(dataset_features[0][0])
     test_labels = np.array(dataset_features[0][1])
-    
-    params = {
 
-    }
+    sweep_id = wandb.sweep(configs[retrieval_method], project=f'{retrieval_method}_retrieval')
 
-    retr = Retrieval(retrieval_method = 'KNN', 
-                     retrieval_parameters = params, 
-                     train_features = train_features, 
-                     train_labels = train_labels, 
-                     test_features = test_features, 
-                     test_labels = test_labels,
-                     train_paths=train_paths,
-                     test_paths=test_paths,
-                     plot=True)
-    
-    retr.fit()
-
-    retr.retrieve_and_eval()
+    if retrieval_method == 'KMEANS':
+        wandb.agent(sweep_id, function=caller, count=len(configs[retrieval_method]['parameters']['n_clusters']['values']))
+    else:
+        wandb.agent(sweep_id, function=caller, count=100)

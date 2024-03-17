@@ -14,6 +14,8 @@ from torch.optim import lr_scheduler
 from pytorch_metric_learning import distances, losses, miners, reducers, testers
 from pytorch_metric_learning.utils.accuracy_calculator import AccuracyCalculator
 
+import wandb
+
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 cuda = torch.cuda.is_available()
 
@@ -94,6 +96,7 @@ def train(model, loss_func, mining_func, device, train_loader, optimizer, epoch)
                     epoch, batch_idx, loss
                 )
             )
+        wandb.log({"loss_train": loss})
 
 def get_all_embeddings(dataset, model):
     tester = testers.BaseTester()
@@ -111,59 +114,111 @@ def test(train_set, test_set, model, accuracy_calculator):
     )
     print("Test set accuracy (Precision@1) = {}".format(accuracies["precision_at_1"]))
 
+    wandb.log({"accuracy": accuracies["precision_at_1"]})
 
 
-def caller():
+sweep_config = {
+    'method': 'random',
+    'metric': {'goal': 'minimize', 'name': 'loss_train'},
+    'parameters': {
 
-    lr = 0.00005977
-    n_epochs = 6
-    miner_positive = 'semihard'
-    miner_negative = 'hard'
-    loss = 'Contrastive'
-    distance = 'Cosine'
-    p_margin = 0.6403
-    n_margin = 0.9026
-    batch_size = 32
+        'lr': {
+            'distribution': 'uniform',
+            'max': 0.0001,
+            'min': 0.00001
+        },
+        'n_epochs': {
+            'values':[5, 6, 7, 8, 9, 10]
 
-    root_dir = '../MIT_split/'
-    train_dir = root_dir + 'train'
-    test_dir = root_dir + 'test'
+        },
+        'miner_conf_positive' : {
+            'values': ['hard', 'semihard', 'easy']
+            },
 
-    train_dataset, test_dataset, train_dataloader, test_dataloader = load_data(train_dir, test_dir, batch_size)
+        'miner_conf_negative' : {
+            'values': ['hard', 'semihard', 'easy']
+            },
 
-    model = EmbeddingNet().to(device)
-    
-    if distance == "Cosine":
-        distance_ = distances.CosineSimilarity()
-    else:
-        distance_ = distances.LpDistance()
+        'loss': {
+            'values': ["Contrastive", "NTX"]
 
-    if loss == "Contrastive":
-        loss_fn = losses.ContrastiveLoss(pos_margin=p_margin, neg_margin=n_margin, distance = distance_)
-    else:
-        loss_fn = losses.NTXentLoss(temperature=0.1, distance = distance_)
+        },
+        'distance': {
+            'values': ['Cosine', 'LP']
+        },
+        'p_margin': {
+            'distribution': 'uniform',
+            'max': 1,
+            'min': 0
+        },
+        'n_margin': {
+            'distribution': 'uniform',
+            'max': 1,
+            'min': 0
+        },
+
+        'batch_size': {
+            'values': [16, 32, 64]
+        }
+    }
+}
 
 
-    miner = miners.BatchEasyHardMiner(
-        pos_strategy = miner_positive,
-        neg_strategy = miner_negative
-    )
 
-    
-    accuracy_calculator = AccuracyCalculator(include=("precision_at_1",), k=1)
+def caller(config = None):
+    with wandb.init(config=config):
 
-    optimizer = optim.Adam(model.parameters(), lr=lr)
+        config = wandb.config
 
-    for epoch in range(1, n_epochs + 1):
-        train(model, loss_fn, miner, device, train_dataloader, optimizer, epoch)
+        if not (config.miner_conf_positive == 'semihard' and config.miner_conf_negative == 'semihard'):
+            lr = config.lr
+            n_epochs = config.n_epochs
+            miner_positive = config.miner_conf_positive
+            miner_negative = config.miner_conf_negative
+            loss = config.loss
+            distance = config.distance
+            p_margin = config.p_margin
+            n_margin = config.n_margin
+            batch_size = config.batch_size
 
-    test(train_dataset, test_dataset, model, accuracy_calculator)
+            root_dir = '../MIT_split/'
+            train_dir = root_dir + 'train'
+            test_dir = root_dir + 'test'
 
-    torch.save(model.state_dict(), 'bestModelSiamese.pth')
+            train_dataset, test_dataset, train_dataloader, test_dataloader = load_data(train_dir, test_dir, batch_size)
+
+            model = EmbeddingNet().to(device)
+            
+            if distance == "Cosine":
+                distance_ = distances.CosineSimilarity()
+            else:
+                distance_ = distances.LpDistance()
+
+            if loss == "Contrastive":
+                loss_fn = losses.ContrastiveLoss(pos_margin=p_margin, neg_margin=n_margin, distance = distance_)
+            else:
+                loss_fn = losses.NTXentLoss(temperature=0.1, distance = distance_)
+
+
+            miner = miners.BatchEasyHardMiner(
+                pos_strategy = miner_positive,
+                neg_strategy = miner_negative
+            )
+
+            
+            accuracy_calculator = AccuracyCalculator(include=("precision_at_1",), k=1)
+
+            optimizer = optim.Adam(model.parameters(), lr=lr)
+
+            for epoch in range(1, n_epochs + 1):
+                train(model, loss_fn, miner, device, train_dataloader, optimizer, epoch)
+
+            test(train_dataset, test_dataset, model, accuracy_calculator)
 
 
 if __name__ == '__main__':
-    caller()
+    sweep_id = wandb.sweep(sweep_config, project="siamese")
+    wandb.agent(sweep_id, function=caller, count=200)
 
 
     

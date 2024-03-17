@@ -76,6 +76,7 @@ if __name__ == '__main__':
     
     with open('datasetResnet152.pkl', 'wb') as f:
         pickle.dump(dataset_features, f)
+    
 
                 
 
