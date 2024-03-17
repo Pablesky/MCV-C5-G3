@@ -26,9 +26,11 @@ Standard Computer Vision python packages are used. Regarding the python version,
 - WandB:
   ```pip install wandb```
 - UMAP
+  ```pip install umap-learn```
 - FAISS
 ```conda install -c pytorch faiss-cpu=1.8.0```
 - pytorch-metric-learning
+  ```pip install pytorch-metric-learning```
 
 
 ## Tasks
