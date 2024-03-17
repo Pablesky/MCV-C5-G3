@@ -20,6 +20,8 @@ from metrics import compute_metrics
 
 import faiss
 
+from sklearn.metrics import confusion_matrix
+
 
 
 class Retrieval:
@@ -193,6 +195,7 @@ class Retrieval:
         plt.ylabel('Precission')
         plt.legend(['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding'])
         plt.savefig(f'precission_recall{self.retrieval_method}.png')
+        plt.close()
 
         class_list = ['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding']
 
@@ -205,6 +208,32 @@ class Retrieval:
 
         print('Mean average precission: ', map_score)
 
+    def confusion_matrix(self):
+        y_true = self.test_labels
+        y_pred = []
+
+        for actual_label in self.save_predictions:
+            predictions = np.array(self.save_predictions[actual_label])
+
+            for prediction in predictions:
+                y_pred.append(prediction[0])
+
+        cm = confusion_matrix(y_true, y_pred)
+        print(cm)
+
+        class_list = ['coast', 'forest', 'highway', 'insidecity', 'mountain', 'opencountry', 'street', 'tallbuilding']
+
+        plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
+        plt.title('Confusion matrix')
+        plt.colorbar()
+        tick_marks = np.arange(len(set(y_true)))
+        plt.xticks(tick_marks, class_list, rotation=45)
+        plt.yticks(tick_marks, class_list)
+        plt.tight_layout()
+        plt.ylabel('True label')
+        plt.xlabel('Predicted label')
+        plt.savefig(f'confusion_matrix{self.retrieval_method}.png')
+
         
 if __name__ == '__main__':
 
@@ -214,7 +243,7 @@ if __name__ == '__main__':
     train_paths = path_images[1]
     test_paths = path_images[0]
     
-    with open('siamesePredictions.pkl', 'rb') as f:
+    with open('tripletPredictions.pkl', 'rb') as f:
         dataset_features = pickle.load(f)
 
     train_features = np.array(dataset_features[1][0])
@@ -235,8 +264,10 @@ if __name__ == '__main__':
                      test_labels = test_labels,
                      train_paths=train_paths,
                      test_paths=test_paths,
-                     plot=True)
+                     plot=False)
     
     retr.fit()
 
     retr.retrieve_and_eval()
+
+    retr.confusion_matrix()
