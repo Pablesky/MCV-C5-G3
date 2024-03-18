@@ -10,7 +10,7 @@ The code and data is structured as follows:
         ├── task_b.py                          # Siamese net and optimization of it.
         ├── task_c.py                          # Triplet net and optimization of it.
         ├── task_d.ipynb                       # Visualizations of all the previous results.
-        └── task_whatever.py
+        └── task_e/                            # A folder with all the files regarding the task e.
 
 All the other files are necessary for the execution of the main ones that are explained above.
 
