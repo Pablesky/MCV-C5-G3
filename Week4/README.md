@@ -9,8 +9,7 @@ The code and data is structured as follows:
         ├── task_a_retrieval.py          # Performs retrieval and evaluation for task a.
         ├── task_n.py                    # Code to train the models for the task b.
         ├── task_b_retrieval.py          # Performs retrieval and evaluation for task b.
-        ├── utils.py                     # Some utility functions used across the code.
-        └── task_e/                      # A folder with all the files regarding the task.
+        └── utils.py                     # Some utility functions used across the code.
 
 All the other files are necessary for the execution of the main ones that are explained above.
 
