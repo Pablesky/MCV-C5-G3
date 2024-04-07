@@ -7,7 +7,7 @@ The code and data is structured as follows:
         ├── generate_data.py             # Creates a pkl file of all the data of the datasets.
         ├── task_a.py                    # Code to train the models for the task a.
         ├── task_a_retrieval.py          # Performs retrieval and evaluation for task a.
-        ├── task_n.py                    # Code to train the models for the task b.
+        ├── task_b.py                    # Code to train the models for the task b.
         ├── task_b_retrieval.py          # Performs retrieval and evaluation for task b.
         └── utils.py                     # Some utility functions used across the code.
 
