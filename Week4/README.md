@@ -9,7 +9,12 @@ The code and data is structured as follows:
         ├── task_a_retrieval.py          # Performs retrieval and evaluation for task a.
         ├── task_b.py                    # Code to train the models for the task b.
         ├── task_b_retrieval.py          # Performs retrieval and evaluation for task b.
-        └── utils.py                     # Some utility functions used across the code.
+        ├── task_c_a1.py                 # Performs the training for the BERT model for task img2txt.
+        ├── task_c_a2.py                 # Performs retrieval and evaluation for task c.
+        ├── task_c_b1.py                 # Performs the training for the BERT model for task txt2img.
+        ├── task_c_b2.py                 # Performs retrieval and evaluation for task d.
+        ├── utils.py                     # Some utility functions used across the code.
+        └── utils_c.py                   # Some utility functions used across the code.
 
 All the other files are necessary for the execution of the main ones that are explained above.
 
