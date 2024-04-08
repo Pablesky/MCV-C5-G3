@@ -35,8 +35,8 @@ Standard Computer Vision python packages are used. Regarding the python version,
 ## Tasks
 The main goal of this project is to perform image retrieval in a pre-trained model and compare it to other methods trained with metric learning (siamese network and triplet network). Moreover, we see how the retrieval performs with a different dataset (COCO - multiobject). Thus, the main tasks are:
 
-- a) Image to text retrieval.
-- b) Text to image retrieval.
+- a) Image to text retrieval using fastText.
+- b) Text to image retrieval using fastText.
 - c) Image to text retrieval using BERT.
 - d) Text to image retrieval using BERT.
 
