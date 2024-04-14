@@ -28,6 +28,8 @@ Standard Computer Vision python packages are used. Regarding the python version,
 ```conda install -c pytorch faiss-cpu=1.8.0```
 - pytorch-metric-learning
   ```pip install pytorch-metric-learning```
+- diffusers
+  ```pip install diffusers```
 
 ## Running the code
 Each task corresponds to a separate file named after the task. To execute them, simply specify the desired hyperparameter values within the "main" section of the respective file and run it using Python 3, as demonstrated below. If the file is a .ipynb file, just run the code cell by cell.
