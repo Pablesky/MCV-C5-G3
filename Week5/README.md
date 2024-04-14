@@ -1,4 +1,4 @@
-# Week 3: Image Retrieval
+# Week 5: Diffusion models
 
 ## Folder structure 
 The code and data is structured as follows:
@@ -38,11 +38,12 @@ Standard Computer Vision python packages are used. Regarding the python version,
 
 
 ## Tasks
-The main goal of this project is to perform image retrieval in a pre-trained model and compare it to other methods trained with metric learning (siamese network and triplet network). Moreover, we see how the retrieval performs with a different dataset (COCO - multiobject). Thus, the main tasks are:
+The main goal of this project is to try and understand how diffusion models work and the use of their parameters. Moreover, to give some use to these kind of architecture and find a problem from our previous retrievals and solve it using diffusion. Thus, the main tasks are:
 
-- a) Image to text retrieval using fastText.
-- b) Text to image retrieval using fastText.
-- c) Image to text retrieval using BERT.
-- d) Text to image retrieval using BERT.
+- a) Using open-sourced models.
+- b) Exploration of inference with diffusion models.
+- c) Analysis and problem statement.
+- d) Building a complex pipeline.
+- e) Example of an application of generative AI. 
 
 All the hyperparameters are optimized using wandb.ai.
