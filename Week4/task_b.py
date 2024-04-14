@@ -169,7 +169,6 @@ def caller(config = None):
                 nn.init.xavier_uniform_(layer.weight)
                 nn.init.constant_(layer.bias, 0.0)
 
-        
         if distance == "Cosine":
             distance_ = distances.CosineSimilarity()
         else:

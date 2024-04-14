@@ -24,3 +24,8 @@ COCO/captions_val2014.json
 COCO/instances_val2014.json
 COCO/instances_train2014.json
 COCO/mcv_image_retrieval_annotations.json
+*.gguf
+*.bin
+Week5/llama.ipynb
+Week5/task_b_full.py
+Week5/utils_w4.py
