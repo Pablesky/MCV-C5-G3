@@ -4,10 +4,10 @@
 The code and data is structured as follows:
 
         .
-        ├── task_a.ipynb            # Creates a pkl file of all the data of the datasets.
-        ├── task_b.ipynb            # Code to train the models for the task a.
+        ├── task_a.ipynb            # All the code to generate the data and try with the diffusion models.
+        ├── task_b.ipynb            # All the code to experiment with the stable diffusion parameters.
         ├── week4_cb3.py            # Code reused from previous weeks to perform the retrieval.
-        └── utils.py                # Some utility functions used across the code.
+        └── utils.py                # Some utility functions used across the code and to generate the pkl files in the main of this file.
 
 All the other files are necessary for the execution of the main ones that are explained above.
 
