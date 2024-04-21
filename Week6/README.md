@@ -1,13 +1,15 @@
-# Week 5: Diffusion models
+# Week 5: Multimodal model
 
 ## Folder structure 
 The code and data is structured as follows:
 
         .
-        ├── task_a.ipynb            # All the code to generate the data and try with the diffusion models.
-        ├── task_b.ipynb            # All the code to experiment with the stable diffusion parameters.
-        ├── week4_cb3.py            # Code reused from previous weeks to perform the retrieval.
-        └── utils.py                # Some utility functions used across the code and to generate the pkl files in the main of this file.
+        ├── data_augmentation.ipynb         # Is the code to aggregate the augemented data to the dataset.
+        ├── plot_embedding.ipynb            # Code to plot the embedding of the metric learning.
+        ├── task_a.ipynb                    # Code to the data science part.
+        ├── task_b.py                       # Code to train the model for image classification.
+        ├── task_b_metric_learning.py       # Code to train the model for image classification using metric learning.
+        └── task_e.py                       # Code to train the multimodal model.
 
 All the other files are necessary for the execution of the main ones that are explained above.
 
@@ -37,14 +39,14 @@ Each task corresponds to a separate file named after the task. To execute them, 
 ```bash
 python3 task.py
  ```
+The notebooks, just run them as normal.
 
 ## Tasks
-The main goal of this project is to try and understand how diffusion models work and the use of their parameters. Moreover, to give some use to these kind of architecture and find a problem from our previous retrievals and solve it using diffusion. Thus, the main tasks are:
+The main goal of this project is to try and understand how multimodal models work and to see if having a lot of dimensions is also a good idea.
 
-- a) Using open-sourced models.
-- b) Exploration of inference with diffusion models.
-- c) Analysis and problem statement.
-- d) Building a complex pipeline.
-- e) Example of an application of generative AI. 
-
-All the hyperparameters are optimized using wandb.ai.
+- a) Explore the data.
+- b) Train a simple image classification model.
+- c) Training strategy
+- d) Training strategy.
+- e), f) Feature extraction for audio and text.
+- g) Multimodal model training. 
