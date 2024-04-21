@@ -1,4 +1,4 @@
-# Week 5: Multimodal model
+# Week 6: Multimodal model
 
 ## Folder structure 
 The code and data is structured as follows:
