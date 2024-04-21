@@ -255,18 +255,20 @@ if __name__ == '__main__':
     prefix = 'txt2img' 
     k = 10
     plot = True
+
+    # new_embeddings1/
     
     if case == 'train':
-        with open('new_embeddings1/train_image_emb' + prefix + '.pkl', 'rb') as f:
+        with open('train_image_emb' + prefix + '.pkl', 'rb') as f:
             image_emb = pickle.load(f)
 
-        with open('new_embeddings1/train_text_emb' + prefix + '.pkl', 'rb') as f:
+        with open('train_text_emb' + prefix + '.pkl', 'rb') as f:
             text_emb = pickle.load(f)
 
-        with open('new_embeddings1/train_labels' + prefix + '.pkl', 'rb') as f:
+        with open('train_labels' + prefix + '.pkl', 'rb') as f:
             labels = pickle.load(f)
 
-        with open('new_embeddings1/train_captions' + prefix + '.pkl', 'rb') as f:
+        with open('train_captions' + prefix + '.pkl', 'rb') as f:
             captions = pickle.load(f)
 
     else:
