@@ -39,7 +39,6 @@ Each task corresponds to a separate file named after the task. To execute them, 
 ```bash
 python3 task.py
  ```
-The notebooks, just run them as normal.
 
 ## Tasks
 The main goal of this project is to try and understand how multimodal models work and to see if having a lot of dimensions is also a good idea.
